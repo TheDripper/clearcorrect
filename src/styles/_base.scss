@@ -15,9 +15,13 @@ body {
 
 a {
     color: #3897f0;
-    text-decoration: none
+    text-decoration: none;
+    @apply mt-2;
 }
 
 a:hover {
     text-decoration: underline
+}
+.up {
+  @apply mt-8;
 }

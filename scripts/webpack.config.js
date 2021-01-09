@@ -1,7 +1,8 @@
 'use strict';
 
 const webpack = require('webpack');
-const autoprefixer = require('autoprefixer');
+const autoprefixer = require('autoprefixer')
+const tailwind = require('tailwindcss');
 const AssetsPlugin = require('assets-webpack-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -52,7 +53,7 @@ module.exports = {
         include: paths.appSrc,
       },
       {
-        test: /.scss$/,
+        test: /.s?css$/,
         use: [
           MiniCssExtractPlugin.loader,
           {
@@ -63,6 +64,9 @@ module.exports = {
             options: {
               ident: "postcss", // https://webpack.js.org/guides/migrating/#complex-options
               plugins: () => [
+                tailwind({
+                  config:'./src/util/tailwind.config.js'
+                }),
                 autoprefixer({
                   browsers: [
                     ">1%",

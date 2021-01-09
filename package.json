@@ -10,13 +10,16 @@
   "author": "jaredpalmer",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.3.1"
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "jquery": "^3.3.1",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "assets-webpack-plugin": "^3.9.7",
-    "autoprefixer": "^9.4.9",
     "babel-loader": "^8.0.4",
     "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "^2.2.0",
@@ -27,6 +30,7 @@
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.10.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-import": "^14.0.0",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.0.0",
     "style-loader": "^0.23.1",
