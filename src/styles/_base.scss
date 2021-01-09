@@ -1,27 +1,43 @@
-html {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: transparent;
-  text-rendering: optimizeLegibility;
-}
+@layer base {
+  html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+  }
 
-html, body {
-  height: 100%;
-}
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
 
-body {
-  font-family: $sans;
-}
-
-a {
-    color: #3897f0;
-    text-decoration: none;
-    @apply mt-2;
-}
-
-a:hover {
-    text-decoration: underline
-}
-.up {
-  @apply mt-8;
+  body {
+    font-family: $sans;
+    @apply text-body font-body leading-normal;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  a {
+    margin: 0;
+  }
+  .wp-block-columns {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    @apply text-head font-head font-bold;
+    line-height: 46px;
+  }
+  .wp-block-button__link {
+    @apply bg-pink font-body-bold;
+    border-radius: 5px;
+    font-size: 15px;
+  }
 }
