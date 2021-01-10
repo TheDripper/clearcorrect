@@ -8,7 +8,7 @@ module.exports = {
     colors: {
       white: "#fff",
       pink: "#FB5373",
-      white: "#FFFFFF"
+      "div-grey":"#979797"
     },
     fontSize: {
       xs: ".75rem",

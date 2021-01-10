@@ -24,7 +24,9 @@
   h6,
   p,
   li,
-  a {
+  a,
+  figure,
+  .wp-block-image {
     margin: 0;
   }
   a {
@@ -34,7 +36,6 @@
     &:hover {
       text-decoration: underline;
     }
-    
   }
   .wp-block-columns {
     margin: 0;
@@ -124,4 +125,15 @@
   img {
     max-width: 700px !important;
   }
+}
+#footer {
+  p,
+  li,
+  a {
+    @apply text-white;
+  }
+}
+.social-icon {
+  width: 37px;
+  height: 37px;
 }
