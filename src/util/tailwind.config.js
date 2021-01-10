@@ -2,6 +2,14 @@ module.exports = {
   purge: ["./template/*.php"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    maxHeight: {
+      "photo":"35rem"
+    },
+    colors: {
+      white: "#fff",
+      pink: "#FB5373",
+      white: "#FFFFFF"
+    },
     fontSize: {
       xs: ".75rem",
       sm: ".875rem",
@@ -16,6 +24,7 @@ module.exports = {
       "6xl": "4rem",
       "7xl": "5rem",
       head: "50px",
+      "sub-head": "30px",
       body: "18px",
     },
     fontFamily: {

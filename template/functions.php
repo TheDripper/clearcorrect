@@ -25,7 +25,12 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('theme-js', get_template_directory_uri() . "/build/" . $main->js, ['jquery'], null, true);
 }, 100);
 
-
+add_action('admin_enqueue_scripts', function () {
+    $manifest = json_decode(file_get_contents('build/assets.json', true));
+    $main = $manifest->main;
+    wp_enqueue_style('fonts', get_template_directory_uri() . "/build/fonts.css",  false, null);
+    wp_enqueue_style('theme-css', get_template_directory_uri() . "/build/" . $main->css,  ['fonts'], null);
+});
 /**
  * Theme setup
  */
@@ -72,19 +77,19 @@ add_action('after_setup_theme', function () {
 
 
 add_action('rest_api_init', function () {
-	$namespace = 'presspack/v1';
-	register_rest_route( $namespace, '/path/(?P<url>.*?)', array(
-		'methods'  => 'GET',
-		'callback' => 'get_post_for_url',
-	));
+    $namespace = 'presspack/v1';
+    register_rest_route($namespace, '/path/(?P<url>.*?)', array(
+        'methods'  => 'GET',
+        'callback' => 'get_post_for_url',
+    ));
 });
 
 /**
-* This fixes the wordpress rest-api so we can just lookup pages by their full
-* path (not just their name). This allows us to use React Router.
-*
-* @return WP_Error|WP_REST_Response
-*/
+ * This fixes the wordpress rest-api so we can just lookup pages by their full
+ * path (not just their name). This allows us to use React Router.
+ *
+ * @return WP_Error|WP_REST_Response
+ */
 function get_post_for_url($data)
 {
     $postId    = url_to_postid($data['url']);
@@ -98,7 +103,8 @@ function get_post_for_url($data)
 add_filter('body_class', 'add_slug_to_body_class'); // Add slug to body class (Starkers build)
 
 // Add page slug to body class, love this - Credit: Starkers Wordpress Theme
-function add_slug_to_body_class($classes) {
+function add_slug_to_body_class($classes)
+{
     global $post;
     if (is_home()) {
         $key = array_search('blog', $classes);
