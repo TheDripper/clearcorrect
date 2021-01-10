@@ -34,7 +34,8 @@ module.exports = {
     },
     textColor: {
       pink: "#FB5373",
-      white: "#FFFFFF"
+      white: "#FFFFFF",
+      grey: "#2B3034"
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),

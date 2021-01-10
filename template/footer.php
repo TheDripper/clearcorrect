@@ -1,5 +1,5 @@
 		<?php wp_footer(); ?>
-		<div id="footer" class="bg-grey pt-12 pb-8">
+		<div id="footer" class="bg-grey pt-12 pb-6">
 			<div class="max-w-6xl mx-auto border-b-2 border-div-grey pb-6">
 				<div class="wp-block-columns">
 					<div class="wp-block-column" style="width:50%;">
@@ -34,7 +34,7 @@
 					</div>
 					<div class="wp-block-column flex items-end justify-end" style="width:50%;">
 						<div class="social flex">
-						<img src="<?php echo get_template_directory_uri() . "/build/images/face.png"; ?>" class="social-icon mx-2" />
+							<img src="<?php echo get_template_directory_uri() . "/build/images/face.png"; ?>" class="social-icon mx-2" />
 							<img src="<?php echo get_template_directory_uri() . "/build/images/Instagram.png"; ?>" class="social-icon mx-2" />
 							<img src="<?php echo get_template_directory_uri() . "/build/images/Twitter.png"; ?>" class="social-icon mx-2" />
 							<img src="<?php echo get_template_directory_uri() . "/build/images/Youtube.png"; ?>" class="social-icon mx-2" />
@@ -43,6 +43,15 @@
 
 				</div>
 			</div>
+			<div class="max-w-6xl mx-auto pt-6 flex justify-between items-center">
+				<p class="text-sm">© 2020 Institut Straumann AG</p>
+				<ul class="flex">
+					<li class="mx-2">Legal Notice</li>
+					<li class="mx-2">Privacy Notice</li>
+					<li class="mx-2">Imprint</li>
+					<li class="mx-2">Manage Consent</li>
+					<li class="mx-2">Preference</li>
+				</ul>
+			</div>
 			</body>
-
 			</html>

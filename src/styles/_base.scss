@@ -26,7 +26,8 @@
   li,
   a,
   figure,
-  .wp-block-image {
+  .wp-block-image,
+  .wp-block-buttons .wp-block-button {
     margin: 0;
   }
   a {
@@ -56,6 +57,7 @@
     @apply bg-pink font-body-bold;
     border-radius: 5px;
     font-size: 15px;
+    min-width: 245px;
   }
 }
 .no-max {
@@ -65,6 +67,9 @@
 }
 .hollow .wp-block-button__link {
   border: 2px solid $pink;
+  @apply text-pink bg-white;
+}
+.invert .wp-block-button__link {
   @apply text-pink bg-white;
 }
 .middle {
@@ -136,4 +141,14 @@
 .social-icon {
   width: 37px;
   height: 37px;
+}
+.masonry {
+  .wp-block-image {
+    max-width: 20%;
+  }
+}
+.cases-masonry {
+  .wp-block-column:nth-child(even) {
+    transform: translateY(-10%);
+  }
 }
