@@ -27,6 +27,7 @@ services:
       - "./template:/var/www/html/wp-content/themes/presspack"
       - "./build:/var/www/html/wp-content/themes/presspack/build"
       - "./wp-content/plugins:/var/www/html/wp-content/plugins"
+      - "./wp-content/uploads:/var/www/html/wp-content/uploads"
       - "./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini"
     links:
       - db

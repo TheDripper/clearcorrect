@@ -5,6 +5,7 @@ import Router from './util/Router';
 import common from './routes/common';
 import home from './routes/home';
 import featherlight from './util/featherlight';
+import visible from './util/visible';
 
 const masonry = require("masonry-layout");
 
@@ -16,6 +17,7 @@ const masonry = require("masonry-layout");
 const routes = new Router({
   /** All pages */
   featherlight,
+  visible,
   common,
   /** Home page */
   home,

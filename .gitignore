@@ -5,3 +5,5 @@ wp-content
 vendor
 *.log
 .idea
+*.sql
+*.pem
