@@ -1,5 +1,4 @@
 export default (el) => {
-    console.log(el)
     // Special bonus for those using jQuery
     el = el[0];
     // if (typeof jQuery === "function" && el instanceof jQuery) {

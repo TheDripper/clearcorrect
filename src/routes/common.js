@@ -18,9 +18,12 @@ export default {
     }
 
     $(".lazy-fade-1").each(function () {
+      console.log($(this).text());
+      console.log(visible($(this)));
       if (visible($(this))) {
-        $(this).removeClass("lazy-fade-1");
-        $(this).addClass("fade-in-1");
+        var el = $(this);
+        el.removeClass("lazy-fade-1");
+        el.addClass("fade-in-1");
       }
     });
     $(".lazy-fade-2").each(function () {
@@ -78,6 +81,8 @@ export default {
       }
       $(".lazy-fade-1").each(function () {
         if (visible($(this))) {
+          console.log($(this).text());
+          console.log(visible($(this)));
           $(this).removeClass("lazy-fade-1");
           $(this).addClass("fade-in-1");
         }

@@ -118,3 +118,18 @@ function add_slug_to_body_class($classes)
     }
     return $classes;
 }
+function wporg_custom_post_type() {
+    register_post_type('case',
+        array(
+            'labels'      => array(
+                'name'          => __('cases', 'textdomain'),
+                'singular_name' => __('case', 'textdomain'),
+            ),
+                'public'      => true,
+                'has_archive' => true,
+                'show_in_rest' => true,
+                'supports'=>array('thumbnail','title','editor')
+        )
+    );
+}
+add_action('init', 'wporg_custom_post_type');
