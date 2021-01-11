@@ -59,6 +59,12 @@
     min-width: 245px;
   }
 }
+.wp-admin {
+  * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
 .no-max {
   img {
     max-width: none !important;
@@ -172,20 +178,8 @@
 .fade-in-1 {
   animation: fade-in 0.65s forwards linear;
 }
-.fade-in-2 {
-  animation: fade-in 0.85s forwards linear;
-}
-.fade-in-3 {
-  animation: fade-in 1s forwards linear;
-}
 .fade-bounce-1 {
   animation: fade-bounce 0.65s forwards linear;
-}
-.fade-bounce-2 {
-  animation: fade-bounce 0.85s forwards linear;
-}
-.fade-bounce-3 {
-  animation: fade-bounce 1s forwards linear;
 }
 .bounce-in-1 {
   animation: bounce-in 0.75s forwards linear;

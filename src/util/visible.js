@@ -1,9 +1,9 @@
 export default (el) => {
     console.log(el)
     // Special bonus for those using jQuery
-    if (typeof jQuery === "function" && el instanceof jQuery) {
-        el = el[0];
-    }
+    el = el[0];
+    // if (typeof jQuery === "function" && el instanceof jQuery) {
+    // }
 
     var rect = el.getBoundingClientRect();
 
