@@ -10,3 +10,20 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<header>
+		<div class="bg-grey logo-cont m-0 w-full relative z-10 w-full">
+			<div class="max-w-6xl w-full mx-auto flex justify-end items-end">
+				<img class="logo mt-6 mb-4" src="<?php echo get_template_directory_uri() . '/build/images/logo.png'; ?>" />
+			</div>
+		</div>
+		<nav class="flex justify-between items-center py-2 m-0 w-full max-w-6xl relative z-10 w-full max-w-6xl mx-auto">
+			<a href="/stories">Case Gallery</a>
+			<div class="w-1/3 flex justify-between items-center">
+				<input placeholder="search" type="text" />
+				<ul class="flex">
+					<li class="mr-2">Login |</li>
+					<li>Register</li>
+				</ul>
+			</div>
+		</nav>
+	</header>

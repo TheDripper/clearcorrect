@@ -43,6 +43,7 @@
   }
   .wp-block-cover {
     height: inherit;
+    color: inherit;
   }
   h1 {
     @apply text-head font-head font-bold;
@@ -62,7 +63,6 @@
 .wp-admin {
   * {
     opacity: 1 !important;
-
   }
   .wp-block-columns figure {
     transform: none !important;
@@ -132,10 +132,12 @@
 }
 .cards {
   .wp-block-column {
-    border: 10px solid #ffffff;
     border-radius: 25px;
     background-color: #ffffff;
     box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.19);
+  }
+  p, h2 {
+    color: #36393A !important;
   }
 }
 .arrows {
@@ -154,7 +156,7 @@
 }
 .details-tablet-img {
   img {
-    max-width: 700px !important;
+    max-width: 700px;
   }
 }
 #footer {
@@ -255,7 +257,6 @@
   display: none;
   .featherlight-content & {
     @apply flex justify-center items-start;
-    
   }
 }
 .featherlight-content {
@@ -265,5 +266,25 @@
   .card {
     width: 100% !important;
     transform: none;
+  }
+}
+input[type="text"] {
+  border-bottom: 1px solid #9a9c9c;
+  height: 35px;
+}
+header {
+  nav {
+    height: 60px;
+
+    a,
+    li {
+      color: #9a9c9c;
+    }
+  }
+  .logo {
+    max-width: 210px;
+  }
+  .logo-cont {
+    height: 70px;
   }
 }
