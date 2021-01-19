@@ -12,8 +12,8 @@ module.exports = {
     },
     fontSize: {
       xs: ".75rem",
-      sm: ".875rem",
       tiny: ".875rem",
+      sm: ".8889rem",
       base: "1rem",
       lg: "1.125rem",
       xl: "1.25rem",
@@ -30,7 +30,8 @@ module.exports = {
     fontFamily: {
       head: ["Geomanist-bold"],
       body: ["Thesans-reg"],
-      "body-bold": ["Thesans-bold"]
+      "body-bold": ["Thesans-bold"],
+      "body-medium": ["Thesans-medium"]
     },
     textColor: {
       pink: "#FB5373",

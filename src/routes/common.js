@@ -12,11 +12,11 @@ export default {
     console.log("common");
     if ($(".before-after-slider").length) {
       $(".before-after-slider").each(function () {
-        $(this).append('<div class="before-after-handle"></div>');
+        $(this).find('.wp-block-group__inner-container').append('<div class="before-after-handle"></div>');
         $(this).find(".before-after-handle").draggable({ axis: "x" });
         $(this)
           .find(".before-after-handle")
-          .on("mouseup", function () {
+          .on("mousemove", function () {
             // console.log($(this).parent().find('figure').first());
             let position = $(this).position().left;
             $(this).parent().find("figure").last().css("width", position+"px");
