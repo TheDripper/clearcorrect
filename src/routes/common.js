@@ -7,7 +7,7 @@ export default {
     // JavaScript to be fired on all pages
     console.log("common");
     var grid = document.querySelector(".arrows");
-    if (visible($(".spread"))) {
+    if ($('.spread').length && visible($(".spread"))) {
       setTimeout(function () {
         $(".spread").find(".middle").addClass("bounce-in-1");
         $(".spread").find(".l1").addClass("bounce-in-2");
@@ -70,7 +70,7 @@ export default {
       }
     });
     $(document).on("scroll", function () {
-      if (visible($(".spread"))) {
+      if ($('.spread').length && visible($(".spread"))) {
         setTimeout(function () {
           $(".spread").find(".middle").addClass("bounce-in-1");
           $(".spread").find(".l1").addClass("bounce-in-2");

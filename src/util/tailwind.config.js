@@ -35,12 +35,20 @@ module.exports = {
     textColor: {
       pink: "#FB5373",
       white: "#FFFFFF",
-      grey: "#2B3034"
+      grey: "#2B3034",
+      "h5-grey":"#979797"
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),
       "grey": "#2B3034",
       "pink": "#FB5373",
+      "back-grey": "#F4F4F5"
+    }),
+    borderColor: (theme) => ({
+      ...theme("colors"),
+      "shadow-grey": "#979797",
+      "pink": "#FB5373",
+      "border-grey": "#E6EAEE"
     }),
     extend: {},
   },

@@ -25,12 +25,12 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('theme-js', get_template_directory_uri() . "/build/" . $main->js, ['jquery'], null, true);
 }, 100);
 
-add_action('admin_enqueue_scripts', function () {
-    $manifest = json_decode(file_get_contents('build/assets.json', true));
-    $main = $manifest->main;
-    wp_enqueue_style('fonts', get_template_directory_uri() . "/build/fonts.css",  false, null);
-    wp_enqueue_style('theme-css', get_template_directory_uri() . "/build/" . $main->css,  ['fonts'], null);
-});
+// add_action('admin_enqueue_scripts', function () {
+//     $manifest = json_decode(file_get_contents('build/assets.json', true));
+//     $main = $manifest->main;
+//     wp_enqueue_style('fonts', get_template_directory_uri() . "/build/fonts.css",  false, null);
+//     wp_enqueue_style('theme-css', get_template_directory_uri() . "/build/" . $main->css,  ['fonts'], null);
+// });
 /**
  * Theme setup
  */
@@ -128,8 +128,261 @@ function wporg_custom_post_type() {
                 'public'      => true,
                 'has_archive' => true,
                 'show_in_rest' => true,
+                'rewrite'=>array('slug'=>'cases'),
+                'exclude_from_search'=>FALSE,
                 'supports'=>array('thumbnail','title','editor')
         )
     );
 }
 add_action('init', 'wporg_custom_post_type');
+
+function register_taxonomies() {
+
+	$labels = array(
+		'name'                       => 'classification',
+		'singular_name'              => 'classification',
+		'menu_name'                  => 'classification',
+		'all_items'                  => 'All Items',
+		'parent_item'                => 'Parent Item',
+		'parent_item_colon'          => 'Parent Item:',
+		'new_item_name'              => 'New Item Name',
+		'add_new_item'               => 'Add New Item',
+		'edit_item'                  => 'Edit Item',
+		'update_item'                => 'Update Item',
+		'view_item'                  => 'View Item',
+		'separate_items_with_commas' => 'Separate items with commas',
+		'add_or_remove_items'        => 'Add or remove items',
+		'choose_from_most_used'      => 'Choose from the most used',
+		'popular_items'              => 'Popular Items',
+		'search_items'               => 'Search Items',
+		'not_found'                  => 'Not Found',
+		'no_terms'                   => 'No items',
+		'items_list'                 => 'Items list',
+		'items_list_navigation'      => 'Items list navigation',
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+        'show_tagcloud'              => true,
+        'show_in_rest'               => true,
+        'has_archive'                => true,
+        'rewrite'                    => array('slug'=>'classifications')
+	);
+	register_taxonomy( 'classification', array( 'case' ), $args );
+	$labels = array(
+		'name'                       => 'technical_condition',
+		'singular_name'              => 'technical_condition',
+		'menu_name'                  => 'technical_condition',
+		'all_items'                  => 'All Items',
+		'parent_item'                => 'Parent Item',
+		'parent_item_colon'          => 'Parent Item:',
+		'new_item_name'              => 'New Item Name',
+		'add_new_item'               => 'Add New Item',
+		'edit_item'                  => 'Edit Item',
+		'update_item'                => 'Update Item',
+		'view_item'                  => 'View Item',
+		'separate_items_with_commas' => 'Separate items with commas',
+		'add_or_remove_items'        => 'Add or remove items',
+		'choose_from_most_used'      => 'Choose from the most used',
+		'popular_items'              => 'Popular Items',
+		'search_items'               => 'Search Items',
+		'not_found'                  => 'Not Found',
+		'no_terms'                   => 'No items',
+		'items_list'                 => 'Items list',
+		'items_list_navigation'      => 'Items list navigation',
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+        'show_tagcloud'              => true,
+        'show_in_rest'               => true,
+        'has_archive'                => true,
+        'rewrite'                    => array('slug'=>'technical_conditions')
+	);
+	register_taxonomy( 'technical_condition', array( 'case' ), $args );
+	$labels = array(
+		'name'                       => 'treatment_technique',
+		'singular_name'              => 'treatment_technique',
+		'menu_name'                  => 'treatment_technique',
+		'all_items'                  => 'All Items',
+		'parent_item'                => 'Parent Item',
+		'parent_item_colon'          => 'Parent Item:',
+		'new_item_name'              => 'New Item Name',
+		'add_new_item'               => 'Add New Item',
+		'edit_item'                  => 'Edit Item',
+		'update_item'                => 'Update Item',
+		'view_item'                  => 'View Item',
+		'separate_items_with_commas' => 'Separate items with commas',
+		'add_or_remove_items'        => 'Add or remove items',
+		'choose_from_most_used'      => 'Choose from the most used',
+		'popular_items'              => 'Popular Items',
+		'search_items'               => 'Search Items',
+		'not_found'                  => 'Not Found',
+		'no_terms'                   => 'No items',
+		'items_list'                 => 'Items list',
+		'items_list_navigation'      => 'Items list navigation',
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+        'show_tagcloud'              => true,
+        'show_in_rest'               => true,
+        'has_archive'                => true,
+        'rewrite'                    => array('slug'=>'treatment_techniques')
+	);
+	register_taxonomy( 'treatment_technique', array( 'case' ), $args );
+	$labels = array(
+		'name'                       => 'aligner_wear_schedule',
+		'singular_name'              => 'aligner_wear_schedule',
+		'menu_name'                  => 'aligner_wear_schedule',
+		'all_items'                  => 'All Items',
+		'parent_item'                => 'Parent Item',
+		'parent_item_colon'          => 'Parent Item:',
+		'new_item_name'              => 'New Item Name',
+		'add_new_item'               => 'Add New Item',
+		'edit_item'                  => 'Edit Item',
+		'update_item'                => 'Update Item',
+		'view_item'                  => 'View Item',
+		'separate_items_with_commas' => 'Separate items with commas',
+		'add_or_remove_items'        => 'Add or remove items',
+		'choose_from_most_used'      => 'Choose from the most used',
+		'popular_items'              => 'Popular Items',
+		'search_items'               => 'Search Items',
+		'not_found'                  => 'Not Found',
+		'no_terms'                   => 'No items',
+		'items_list'                 => 'Items list',
+		'items_list_navigation'      => 'Items list navigation',
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+        'show_tagcloud'              => true,
+        'show_in_rest'               => true,
+        'has_archive'                => true,
+        'rewrite'                    => array('slug'=>'aligner_wear_schedules')
+	);
+	register_taxonomy( 'aligner_wear_schedule', array( 'case' ), $args );
+	$labels = array(
+		'name'                       => 'level_of_difficulty',
+		'singular_name'              => 'level_of_difficulty',
+		'menu_name'                  => 'level_of_difficulty',
+		'all_items'                  => 'All Items',
+		'parent_item'                => 'Parent Item',
+		'parent_item_colon'          => 'Parent Item:',
+		'new_item_name'              => 'New Item Name',
+		'add_new_item'               => 'Add New Item',
+		'edit_item'                  => 'Edit Item',
+		'update_item'                => 'Update Item',
+		'view_item'                  => 'View Item',
+		'separate_items_with_commas' => 'Separate items with commas',
+		'add_or_remove_items'        => 'Add or remove items',
+		'choose_from_most_used'      => 'Choose from the most used',
+		'popular_items'              => 'Popular Items',
+		'search_items'               => 'Search Items',
+		'not_found'                  => 'Not Found',
+		'no_terms'                   => 'No items',
+		'items_list'                 => 'Items list',
+		'items_list_navigation'      => 'Items list navigation',
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+        'show_tagcloud'              => true,
+        'show_in_rest'               => true,
+        'has_archive'                => true,
+        'rewrite'                    => array('slug'=>'level_of_difficultys')
+	);
+	register_taxonomy( 'level_of_difficulty', array( 'case' ), $args );
+	$labels = array(
+		'name'                       => 'gender',
+		'singular_name'              => 'gender',
+		'menu_name'                  => 'gender',
+		'all_items'                  => 'All Items',
+		'parent_item'                => 'Parent Item',
+		'parent_item_colon'          => 'Parent Item:',
+		'new_item_name'              => 'New Item Name',
+		'add_new_item'               => 'Add New Item',
+		'edit_item'                  => 'Edit Item',
+		'update_item'                => 'Update Item',
+		'view_item'                  => 'View Item',
+		'separate_items_with_commas' => 'Separate items with commas',
+		'add_or_remove_items'        => 'Add or remove items',
+		'choose_from_most_used'      => 'Choose from the most used',
+		'popular_items'              => 'Popular Items',
+		'search_items'               => 'Search Items',
+		'not_found'                  => 'Not Found',
+		'no_terms'                   => 'No items',
+		'items_list'                 => 'Items list',
+		'items_list_navigation'      => 'Items list navigation',
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+        'show_tagcloud'              => true,
+        'show_in_rest'               => true,
+        'has_archive'                => true,
+        'rewrite'                    => array('slug'=>'genders')
+	);
+	register_taxonomy( 'gender', array( 'case' ), $args );
+	$labels = array(
+		'name'                       => 'country',
+		'singular_name'              => 'country',
+		'menu_name'                  => 'country',
+		'all_items'                  => 'All Items',
+		'parent_item'                => 'Parent Item',
+		'parent_item_colon'          => 'Parent Item:',
+		'new_item_name'              => 'New Item Name',
+		'add_new_item'               => 'Add New Item',
+		'edit_item'                  => 'Edit Item',
+		'update_item'                => 'Update Item',
+		'view_item'                  => 'View Item',
+		'separate_items_with_commas' => 'Separate items with commas',
+		'add_or_remove_items'        => 'Add or remove items',
+		'choose_from_most_used'      => 'Choose from the most used',
+		'popular_items'              => 'Popular Items',
+		'search_items'               => 'Search Items',
+		'not_found'                  => 'Not Found',
+		'no_terms'                   => 'No items',
+		'items_list'                 => 'Items list',
+		'items_list_navigation'      => 'Items list navigation',
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+        'show_tagcloud'              => true,
+        'show_in_rest'               => true,
+        'has_archive'                => true,
+        'rewrite'                    => array('slug'=>'countrys')
+	);
+	register_taxonomy( 'country', array( 'case' ), $args );
+
+}
+add_action( 'init', 'register_taxonomies', 0 );
