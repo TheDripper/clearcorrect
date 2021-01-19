@@ -374,3 +374,29 @@ form.doctor-registration {
     height: 12px;
   }
 }
+.before-after-slider {
+  position: relative;
+  figure {
+    overflow: hidden;
+    position: relative;
+    display: flex !important;
+  }
+  figure:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  figure:nth-child(2) {
+    img {
+      max-width: none;
+    }
+  }
+  .before-after-handle {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    background: white;
+  }
+}

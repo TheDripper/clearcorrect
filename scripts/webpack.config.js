@@ -53,6 +53,10 @@ module.exports = {
         include: paths.appSrc,
       },
       {
+        test: /\.css?$/,
+        loader: 'css-loader'
+      },
+      {
         test: /.scss$/,
         use: [
           MiniCssExtractPlugin.loader,

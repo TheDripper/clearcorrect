@@ -1,13 +1,37 @@
 import Masonry from "masonry-layout";
 import visible from "../util/visible";
 import $ from "jquery";
+import "jquery-ui/themes/base/core.css";
+import "jquery-ui/themes/base/draggable.css";
+import "jquery-ui/ui/core";
+import "jquery-ui/ui/widgets/draggable";
 
 export default {
   init() {
     // JavaScript to be fired on all pages
     console.log("common");
+    if ($(".before-after-slider").length) {
+      $(".before-after-slider").each(function () {
+        $(this).append('<div class="before-after-handle"></div>');
+        $(this).find(".before-after-handle").draggable({ axis: "x" });
+        $(this)
+          .find(".before-after-handle")
+          .on("mouseup", function () {
+            // console.log($(this).parent().find('figure').first());
+            let position = $(this).position().left;
+            $(this).parent().find("figure").last().css("width", position+"px");
+            // $(this)
+            //   .parent()
+            //   .find("figure")
+            //   .first()
+            //   .find("img")
+            //   .css("maxWidth", "none");
+            // $(this).parent().find('figure').first().css('overflow','hidden');
+          });
+      });
+    }
     var grid = document.querySelector(".arrows");
-    if ($('.spread').length && visible($(".spread"))) {
+    if ($(".spread").length && visible($(".spread"))) {
       setTimeout(function () {
         $(".spread").find(".middle").addClass("bounce-in-1");
         $(".spread").find(".l1").addClass("bounce-in-2");
@@ -70,7 +94,7 @@ export default {
       }
     });
     $(document).on("scroll", function () {
-      if ($('.spread').length && visible($(".spread"))) {
+      if ($(".spread").length && visible($(".spread"))) {
         setTimeout(function () {
           $(".spread").find(".middle").addClass("bounce-in-1");
           $(".spread").find(".l1").addClass("bounce-in-2");

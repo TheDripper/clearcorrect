@@ -1,4 +1,5 @@
 import 'jquery';
+import 'jquery-ui';
 import './style.scss';
 
 import Router from './util/Router';
