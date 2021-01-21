@@ -5,29 +5,42 @@ import "jquery-ui/themes/base/core.css";
 import "jquery-ui/themes/base/draggable.css";
 import "jquery-ui/ui/core";
 import "jquery-ui/ui/widgets/draggable";
-
+function resetSlider(slider) {
+  var imgWidth = slider.find("figure").first().width();
+  var imgHeight = slider.find("figure").first().height();
+  slider.parent().find("figure").last().find("img").css({
+    maxWidth: "none",
+    width: imgWidth,
+    height: imgHeight
+  });
+}
 export default {
   init() {
     // JavaScript to be fired on all pages
     console.log("common");
     if ($(".before-after-slider").length) {
       $(".before-after-slider").each(function () {
-        $(this).find('.wp-block-group__inner-container').append('<div class="before-after-handle"></div>');
+        resetSlider($(this));
+        $(this)
+          .find(".wp-block-group__inner-container")
+          .append(
+            '<div class="before-after-handle"><img src="/wp-content/themes/template/build/images/before-after-handle.svg" /></div>'
+          );
         $(this).find(".before-after-handle").draggable({ axis: "x" });
+        
+
         $(this)
           .find(".before-after-handle")
           .on("mousemove", function () {
-            // console.log($(this).parent().find('figure').first());
             let position = $(this).position().left;
             $(this).parent().find("figure").last().css("width", position+"px");
-            // $(this)
-            //   .parent()
-            //   .find("figure")
-            //   .first()
-            //   .find("img")
-            //   .css("maxWidth", "none");
-            // $(this).parent().find('figure').first().css('overflow','hidden');
+            resetSlider($(this));
           });
+      });
+      $(window).on('resize',function(){
+        $(".before-after-slider").each(function () {
+          resetSlider($(this));
+        })
       });
     }
     var grid = document.querySelector(".arrows");
@@ -42,9 +55,8 @@ export default {
     }
 
     $(".lazy-fade-1").each(function () {
-      console.log($(this).text());
-      console.log(visible($(this)));
       if (visible($(this))) {
+        $(this).css('opacity','1');
         var el = $(this);
         el.removeClass("lazy-fade-1");
         el.addClass("fade-in-1");
@@ -105,8 +117,6 @@ export default {
       }
       $(".lazy-fade-1").each(function () {
         if (visible($(this))) {
-          console.log($(this).text());
-          console.log(visible($(this)));
           $(this).removeClass("lazy-fade-1");
           $(this).addClass("fade-in-1");
         }

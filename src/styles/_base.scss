@@ -54,10 +54,11 @@
     line-height: 37px;
   }
   .wp-block-button__link {
-    @apply bg-pink font-body-bold;
+    @apply bg-pink font-body-bold flex items-center justify-center;
     border-radius: 5px;
     font-size: 15px;
     min-width: 245px;
+    height: 55px;
   }
 }
 .wp-admin {
@@ -379,6 +380,10 @@ form.doctor-registration {
 }
 .before-after-slider {
   @apply flex justify-start;
+  border: 10px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.33);
+
   .wp-block-group__inner-container {
     position: relative;
     width: 100%;
@@ -388,24 +393,30 @@ form.doctor-registration {
     position: relative;
     display: flex !important;
   }
-  figure:first-child {
+  figure:nth-child(2) {
+    width: 50%;
     position: absolute;
     top: 0;
     left: 0;
-  }
-  figure:nth-child(2) {
-    width: 50%;
-    img {
-      max-width: none;
-    }
+    // img {
+    //   width: 490px;
+    //   height: 325px;
+    //   max-width: none;
+    // }
   }
   .before-after-handle {
+    cursor: pointer;
     position: absolute;
     width: 5px;
+    overflow: visible;
     height: 100%;
     top: 0;
     left: 50%;
     background: white;
+    @apply flex flex-col justify-center items-center;
+    img {
+      max-width: none;
+    }
   }
 }
 .confetti-hero {
@@ -425,5 +436,35 @@ form.doctor-registration {
   img {
     max-width: none;
     width: 100vw;
+  }
+}
+.search-wrap {
+  &:after {
+    content: url('/wp-content/themes/template/build/images/Search.svg');
+    position: absolute;
+    right: -22px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 17px;
+  }
+}
+.logo-frame {
+  figure {
+    position: relative;
+    &:after {
+      content: '';
+      background: url('/wp-content/themes/template/build/images/logo-frame.png');
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      bottom: 0; 
+      width: 190px;
+      height: 41px;
+      @apply bg-white rounded;
+      background-size: 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   }
 }
