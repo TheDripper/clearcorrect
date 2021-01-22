@@ -11,14 +11,25 @@ function resetSlider(slider) {
   slider.parent().find("figure").last().find("img").css({
     maxWidth: "none",
     width: imgWidth,
-    height: imgHeight
+    height: imgHeight,
   });
 }
 export default {
   init() {
     // JavaScript to be fired on all pages
     console.log("common");
+    if ($(".case-images").length) {
+      $(".case-image").on("click", function () {
+        var src = $(this).find("img").attr("src");
+        $(".active").find("img").attr("src", src);
+      });
+    }
     if ($(".before-after-slider").length) {
+      $(window).on("resize", function () {
+        $(".before-after-slider").each(function () {
+          resetSlider($(this));
+        });
+      });
       $(".before-after-slider").each(function () {
         resetSlider($(this));
         $(this)
@@ -27,20 +38,18 @@ export default {
             '<div class="before-after-handle"><img src="/wp-content/themes/template/build/images/before-after-handle.svg" /></div>'
           );
         $(this).find(".before-after-handle").draggable({ axis: "x" });
-        
 
         $(this)
           .find(".before-after-handle")
           .on("mousemove", function () {
             let position = $(this).position().left;
-            $(this).parent().find("figure").last().css("width", position+"px");
+            $(this)
+              .parent()
+              .find("figure")
+              .last()
+              .css("width", position + "px");
             resetSlider($(this));
           });
-      });
-      $(window).on('resize',function(){
-        $(".before-after-slider").each(function () {
-          resetSlider($(this));
-        })
       });
     }
     var grid = document.querySelector(".arrows");
@@ -56,7 +65,7 @@ export default {
 
     $(".lazy-fade-1").each(function () {
       if (visible($(this))) {
-        $(this).css('opacity','1');
+        $(this).css("opacity", "1");
         var el = $(this);
         el.removeClass("lazy-fade-1");
         el.addClass("fade-in-1");

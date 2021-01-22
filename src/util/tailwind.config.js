@@ -1,10 +1,13 @@
 module.exports = {
   purge: {
     content: ["./template/*.php"],
-    layers: ["components"]
+    layers: ["components"],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
+    maxWidth: {
+      "case-single": "1199px"
+    },
     maxHeight: {
       photo: "50rem",
     },
@@ -41,6 +44,7 @@ module.exports = {
       white: "#FFFFFF",
       grey: "#2B3034",
       "h5-grey": "#979797",
+      green: "#13C9B1",
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),
@@ -54,7 +58,8 @@ module.exports = {
       pink: "#FB5373",
       "border-grey": "#E6EAEE",
     }),
-    extend: {},
+    extend: {
+    },
   },
   variants: {
     extend: {},

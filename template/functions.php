@@ -130,7 +130,35 @@ function wporg_custom_post_type() {
                 'show_in_rest' => true,
                 'rewrite'=>array('slug'=>'cases'),
                 'exclude_from_search'=>FALSE,
-                'supports'=>array('thumbnail','title','editor')
+                'supports'=>array('thumbnail','title','editor','author')
+        )
+    );
+    register_post_type('doctor',
+        array(
+            'labels'      => array(
+                'name'          => __('doctors', 'textdomain'),
+                'singular_name' => __('doctor', 'textdomain'),
+            ),
+                'public'      => true,
+                'has_archive' => true,
+                'show_in_rest' => true,
+                'rewrite'=>array('slug'=>'doctors'),
+                'exclude_from_search'=>FALSE,
+                'supports'=>array('thumbnail','title','editor','author')
+        )
+    );
+    register_post_type('banner-ad',
+        array(
+            'labels'      => array(
+                'name'          => __('banner-ads', 'textdomain'),
+                'singular_name' => __('banner-ad', 'textdomain'),
+            ),
+                'public'      => true,
+                'has_archive' => true,
+                'show_in_rest' => true,
+                'rewrite'=>array('slug'=>'banner-ads'),
+                'exclude_from_search'=>FALSE,
+                'supports'=>array('thumbnail','title','editor','author')
         )
     );
 }
@@ -391,4 +419,19 @@ function cc_mime_types($mimes) {
   $mimes['svg'] = 'image/svg+xml';
   return $mimes;
 }
-add_filter('upload_mimes', 'cc_mime_types');
+// add_filter('upload_mimes', 'cc_mime_types');
+// function my_acf_init() {
+	
+// 	acf_update_setting('google_api_key', 'AIzaSyCttO3DiKRKOeTdh0MNVbFjC2xs46ECs_8');
+// }
+
+// add_action('acf/init', 'my_acf_init');
+function my_acf_google_map_api( $api ){
+	
+	$api['key'] = 'AIzaSyCttO3DiKRKOeTdh0MNVbFjC2xs46ECs_8';
+	
+	return $api;
+	
+}
+
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');

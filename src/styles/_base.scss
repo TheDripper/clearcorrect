@@ -440,7 +440,7 @@ form.doctor-registration {
 }
 .search-wrap {
   &:after {
-    content: url('/wp-content/themes/template/build/images/Search.svg');
+    content: url("/wp-content/themes/template/build/images/Search.svg");
     position: absolute;
     right: -22px;
     top: 50%;
@@ -453,12 +453,12 @@ form.doctor-registration {
   figure {
     position: relative;
     &:after {
-      content: '';
-      background: url('/wp-content/themes/template/build/images/logo-frame.png');
+      content: "";
+      background: url("/wp-content/themes/template/build/images/logo-frame.png");
       position: absolute;
       left: 50%;
       transform: translate(-50%);
-      bottom: 0; 
+      bottom: 0;
       width: 190px;
       height: 41px;
       @apply bg-white rounded;
@@ -467,4 +467,49 @@ form.doctor-registration {
       background-repeat: no-repeat;
     }
   }
+}
+.case-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+}
+.case-detail {
+}
+.case-image {
+  max-width: 16.666%;
+  height: 50px;
+  overflow: hidden;
+}
+.active {
+  width: 450px;
+  // height: 380px;
+  max-width: 100%;
+  overflow: hidden;
+  @apply flex flex-col justify-center items-start;
+  overflow: hidden;
+}
+.doctor-photo {
+  img {
+    max-width: 104px;
+  }
+}
+.doctor-card {
+  margin-left: -1.5rem;
+}
+.banner-submit {
+  .wp-block-column:first-child {
+    max-width: 480px;
+    figure {
+      width: 480px;
+    }
+  }
+  .wp-block-button__link {
+    width: 175px;
+    height: 44px;
+    min-width: 0 !important;
+  }
+  // .wp-block-column:last-child {
+  //   margin-left: 0
+  // }
 }
