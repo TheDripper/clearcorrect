@@ -1,4 +1,4 @@
-<div class="case border border-border-grey m-4 p-4 rounded mb-6">
+<div class="case border border-border-grey m-4 p-4 rounded mb-6 relative">
   <div class="wp-block-columns">
     <div class="wp-block-column" style="flex:33%;">
       <?php the_post_thumbnail(); ?>
@@ -29,4 +29,5 @@
       </div>
     </div>
   </div>
+  <a href="<?php the_permalink(); ?>" class="brick"></a>
 </div>

@@ -5,9 +5,10 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    maxWidth: {
-      "case-single": "1199px"
-    },
+    // maxWidth: {
+    //   "case-single": "1199px",
+    //   "6xl": "4rem"
+    // },
     maxHeight: {
       photo: "50rem",
     },

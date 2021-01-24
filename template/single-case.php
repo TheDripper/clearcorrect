@@ -13,13 +13,13 @@
         <?php $conditions = get_the_terms($id, 'technical_condition'); ?>
         <!-- article -->
         <article id="post-<?php the_ID(); ?>" <?php post_class('pt-12'); ?>>
-          <div class="wp-block-columns bg-white rounded p-4 max-w-case-single mx-auto">
+          <div class="wp-block-columns bg-white rounded p-4 max-w-6xl mx-auto">
             <div class="wp-block-column" style="flex:33.333%">
               <div class="case-images flex flex-col">
                 <div class="hidden active flex items-center justify-center">
                   <img src="<?php the_post_thumbnail_url(); ?>" />
                 </div>
-                <div class="active flex items-center justify-start">
+                <div class="active flex items-center justify-start mb-6">
                   <div class="wp-block-group before-after-slider">
                     <div class="wp-block-group__inner-container">
                       <figure class="wp-block-image size-full is-resized"><img loading="lazy" src="http://localhost:9009/wp-content/uploads/2021/01/before_single-1.png" alt="" class="wp-image-60" width="592" height="392"></figure>
@@ -111,7 +111,7 @@
           $content = apply_filters('the_content', $content);
           $content = str_replace(']]>', ']]>', $content);
           ?>
-          <section class="banner-ad max-w-case-single mx-auto my-6">
+          <section class="banner-ad max-w-6xl mx-auto my-6">
             <?php echo $content; ?>
           </section>
         </article>

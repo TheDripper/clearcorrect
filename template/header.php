@@ -13,7 +13,7 @@
 	<header>
 		<div class="bg-grey logo-cont m-0 w-full relative z-10 w-full">
 			<div class="max-w-6xl w-full mx-auto flex justify-end items-end">
-				<img class="logo mt-6 mb-4" src="<?php echo get_template_directory_uri() . '/build/images/logo.png'; ?>" />
+				<a href="/"><img class="logo mt-6 mb-4" src="<?php echo get_template_directory_uri() . '/build/images/logo.png'; ?>" /></a>
 			</div>
 		</div>
 		<nav class="flex justify-between items-center py-2 m-0 w-full max-w-6xl relative z-10 w-full max-w-6xl mx-auto">

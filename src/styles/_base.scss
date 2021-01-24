@@ -332,7 +332,8 @@ form.doctor-registration {
     }
   }
 }
-.list {
+.list,
+.education ul {
   position: relative;
   padding-left: 10px;
   li {
@@ -512,4 +513,14 @@ form.doctor-registration {
   // .wp-block-column:last-child {
   //   margin-left: 0
   // }
+}
+.brick {
+  @apply absolute w-full h-full;
+  top: 0;
+  left: 0;
+}
+.single-case {
+  .max-w-6xl {
+    max-width: 1199px !important;
+  }
 }

@@ -10,7 +10,7 @@ $post = $doctor;
     <?php the_post_thumbnail(); ?>
   </div>
   <div class="doctor-contact ml-6 w-full">
-    <h3 class="text-green t text-md font-head">Dr. Jim Smith</h3>
+    <h3 class="text-green text-md font-head">Dr. Jim Smith</h3>
     <div class="wp-block-columns">
       <div class="wp-block-column" style="flex:50%;">
         <label class="text-h5-grey uppercase text-xs font-bold">Location</label>
