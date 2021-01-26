@@ -53,6 +53,12 @@
     @apply text-sub-head font-head font-bold;
     line-height: 37px;
   }
+  h3, h4, h5, h6 {
+    @apply font-head;
+  }
+  h4 {
+    font-size: 16px;
+  }
   .wp-block-button__link {
     @apply bg-pink font-body-bold flex items-center justify-center;
     border-radius: 5px;
@@ -522,5 +528,44 @@ form.doctor-registration {
 .single-case {
   .max-w-6xl {
     max-width: 1199px !important;
+  }
+  .modal {
+    @apply flex flex-col;
+    img {
+      max-width: 293px;
+      @apply m-2;
+    }
+    .cephalometric {
+      img {
+        max-width: 100%;
+      }
+    }
+    .panoramic {
+      img {
+        max-width: calc(100% - 0.5rem);
+        margin: 0;
+      }
+    }
+  }
+}
+.case-information {
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+}
+.resources {
+  h3 {
+    font-size: 32px;
+  }
+  h4 {
+    @apply mb-1 mt-6;
+  }
+}
+.treatment-details {
+  label {
+    @apply mt-6 block;
   }
 }

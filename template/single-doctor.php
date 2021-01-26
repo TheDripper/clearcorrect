@@ -16,13 +16,11 @@
               <h2><?php the_title(); ?></h2>
               <p><?php the_field('position'); ?></p>
             </div>
-            <div class="doctor-contact mt-4 w-full">
+            <div class="doctor-contact my-4 w-full">
               <div class="wp-block-columns">
                 <div class="wp-block-column" style="flex:50%;">
                   <h4 class="font-bold">Location</h4>
-                  <address>
                     <?php the_field('location'); ?>
-                  </address>
                 </div>
                 <div class="wp-block-column" style="flex:50%;">
                   <h4 class="font-bold">Contact</h4>

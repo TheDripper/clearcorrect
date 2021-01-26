@@ -9,11 +9,11 @@
         <?php $classification = get_the_terms($id, 'classification')[0]->name; ?>
         <?php $aligner_wear_schedule = get_the_terms($id, 'aligner_wear_schedule')[0]->name; ?>
         <?php $level_of_difficulty = get_the_terms($id, 'level_of_difficulty')[0]->name; ?>
-        <?php $treatment_technique = get_the_terms($id, 'treatment_technique')[0]->name; ?>
+        <?php $treatment_technique = get_the_terms($id, 'treatment_technique'); ?>
         <?php $conditions = get_the_terms($id, 'technical_condition'); ?>
         <!-- article -->
         <article id="post-<?php the_ID(); ?>" <?php post_class('pt-12'); ?>>
-          <div class="wp-block-columns bg-white rounded p-4 max-w-6xl mx-auto">
+          <div class="wp-block-columns bg-white rounded p-4 pb-24 max-w-6xl mx-auto case-information">
             <div class="wp-block-column" style="flex:33.333%">
               <div class="case-images flex flex-col">
                 <div class="hidden active flex items-center justify-center">
@@ -35,9 +35,105 @@
                   <?php endforeach; ?>
                 </div>
               </div>
+              <div class="resources p-4">
+                <h3 class="mb-6">Resources</h3>
+                <h4>Before Photos</h4>
+                <ul>
+                  <li><a href="<?php echo get_field('before_occluded_buccal_view_of_anterior')['url']; ?>">Occluded buccal view of anterior</a></li>
+                  <li><a href="<?php echo get_field('before_occluded_buccal_view_of_right_lateral')['url']; ?>">Occluded buccal view of right lateral</a></li>
+                  <li><a href="<?php echo get_field('before_occluded_buccal_view_of_left_lateral')['url']; ?>">Occluded buccal view of left lateral</a></li>
+                  <li><a href="<?php echo get_field('before_occlusal_view_of_upper')['url']; ?>">Occlusal view of upper</a></li>
+                  <li><a href="<?php echo get_field('before_occlusal_view_of_lower')['url']; ?>">Occlusal view of lower</a></li>
+                </ul>
+                <h4>After Photos</h4>
+                <ul>
+                  <li><a href="<?php echo get_field('after_occluded_buccal_view_of_anterior')['url']; ?>">Occluded buccal view of anterior</a></li>
+                  <li><a href="<?php echo get_field('after_occluded_buccal_view_of_right_lateral')['url']; ?>">Occluded buccal view of right lateral</a></li>
+                  <li><a href="<?php echo get_field('after_occluded_buccal_view_of_left_lateral')['url']; ?>">Occluded buccal view of left lateral</a></li>
+                  <li><a href="<?php echo get_field('after_occlusal_view_of_upper')['url']; ?>">Occlusal view of upper</a></li>
+                  <li><a href="<?php echo get_field('after_occlusal_view_of_lower')['url']; ?>">Occlusal view of lower</a></li>
+                </ul>
+                <h4>Progress Photos</h4>
+                <ul>
+                  <li><a href="<?php echo get_field('progress_occluded_buccal_view_of_anterior')['url']; ?>">Occluded buccal view of anterior</a></li>
+                  <li><a href="<?php echo get_field('progress_occluded_buccal_view_of_right_lateral')['url']; ?>">Occluded buccal view of right lateral</a></li>
+                  <li><a href="<?php echo get_field('progress_occluded_buccal_view_of_left_lateral')['url']; ?>">Occluded buccal view of left lateral</a></li>
+                  <li><a href="<?php echo get_field('progress_occlusal_view_of_upper')['url']; ?>">Occlusal view of upper</a></li>
+                  <li><a href="<?php echo get_field('progress_occlusal_view_of_lower')['url']; ?>">Occlusal view of lower</a></li>
+                </ul>
+                <h4>Radiographs</h4>
+                <ul>
+                  <li><a href="<?php echo get_field('before_panoramic_x-ray')['url']; ?>">Before - Panoramic X-ray</a></li>
+                  <li><a href="<?php echo get_field('before_cephalometric_x-ray')['url']; ?>">Before - Cephalometric X-ray</a></li>
+                  <li><a href="<?php echo get_field('after_panoramic_x-ray')['url']; ?>">After - Panoramic X-ray</a></li>
+                  <li><a href="<?php echo get_field('after_cephalometric_x-ray')['url']; ?>">After - Cephalometric X-ray</a></li>
+                </ul>
+                <h4>Downloads</h4>
+                <ul>
+                  <li><a href="<?php echo get_field('downloads'); ?>">Downloads</a></li>
+                </ul>
+
+
+                <div class="modal">
+                  <h2 class="text-pink ml-2">Before Treatment</h2>
+                  <div class="flex flex-wrap mb-12">
+                    <img src="<?php echo get_field('before_occluded_buccal_view_of_anterior')['url']; ?>" />
+                    <img src="<?php echo get_field('before_occluded_buccal_view_of_right_lateral')['url']; ?>" />
+                    <img src="<?php echo get_field('before_occluded_buccal_view_of_left_lateral')['url']; ?>" />
+                    <img src="<?php echo get_field('before_occlusal_view_of_upper')['url']; ?>" />
+                    <img src="<?php echo get_field('before_occlusal_view_of_lower')['url']; ?>" />
+                  </div>
+                  <h2 class="text-pink ml-2">Progress - 2 weeks</h2>
+                  <div class="flex flex-wrap mb-12">
+
+                    <img src="<?php echo get_field('progress_occluded_buccal_view_of_anterior')['url']; ?>" />
+                    <img src="<?php echo get_field('progress_occluded_buccal_view_of_right_lateral')['url']; ?>" />
+                    <img src="<?php echo get_field('progress_occluded_buccal_view_of_left_lateral')['url']; ?>" />
+                    <img src="<?php echo get_field('progress_occlusal_view_of_upper')['url']; ?>" />
+                    <img src="<?php echo get_field('progress_occlusal_view_of_lower')['url']; ?>" />
+                  </div>
+
+                  <h2 class="text-pink ml-2">After Treatment</h2>
+                  <div class="flex flex-wrap mb-12">
+
+                    <img src="<?php echo get_field('after_occluded_buccal_view_of_anterior')['url']; ?>" />
+                    <img src="<?php echo get_field('after_occluded_buccal_view_of_right_lateral')['url']; ?>" />
+                    <img src="<?php echo get_field('after_occluded_buccal_view_of_left_lateral')['url']; ?>" />
+                    <img src="<?php echo get_field('after_occlusal_view_of_upper')['url']; ?>" />
+                    <img src="<?php echo get_field('after_occlusal_view_of_lower')['url']; ?>" />
+                  </div>
+
+
+                  <h2 class="text-pink ml-2">Treatment Setup</h2>
+                  <video src="<?php the_field('treatment_setup'); ?>"></video>
+
+                  <div class="cephalometric">
+                    <h2 class="text-pink ml-2">Cephalometric Radiographs</h2>
+                    <div class="flex justify-center">
+                      <div class="flex flex-col justify-start">
+                        <p class="font-bold mb-1 text-h5-grey ml-2">Before</p>
+                        <img src="<?php echo get_field('before_cephalometric_x-ray')['url']; ?>" />
+                      </div>
+                      <div class="flex flex-col justify-start">
+                        <p class="font-bold mb-1 text-h5-grey ml-2">After</p>
+                        <img src="<?php echo get_field('after_cephalometric_x-ray')['url']; ?>" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panoramic">
+                    <h2 class="text-pink ml-2 mt-12">Panoramic Radiographs</h2>
+                    <p class="font-bold mb-1 text-h5-grey ml-2">Before</p>
+                    <img class="ml-2" src="<?php echo get_field('before_panoramic_x-ray')['url']; ?>" />
+                    <p class="font-bold mb-1 mt-4  ml-2 text-h5-grey">After</p>
+                    <img class="ml-2" src="<?php echo get_field('after_panoramic_x-ray')['url']; ?>" />
+                  </div>
+
+                </div>
+
+              </div>
             </div>
             <div class="wp-block-column" style="flex:66.666%">
-              <h2 class="text-pink mb-4 mt-6">Case Information</h2>
+              <h2 class="text-pink ml-2 mb-4 mt-6">Case Information</h2>
               <?php $id = get_the_ID(); ?>
               <?php $author = get_the_author_meta('id'); ?>
               <?php $age = get_field("age", "user_$author"); ?>
@@ -87,7 +183,7 @@
 
                 <div class="case-detail">
                   <label class="text-h5-grey uppercase text-xs font-bold">Treatment Option</label>
-                  <p><?php echo $treatment_technique; ?>
+                  <p><?php echo $treatment_technique[0]->name; ?>
                 </div>
 
               </div>
@@ -102,7 +198,48 @@
                   <?php get_template_part('content', 'doctor'); ?>
                 </div>
               <?php endif;  ?>
+              <?php
+              $user = wp_get_current_user();
+              if (in_array('administrator', (array) $user->roles)) :
+              ?>
+                <div class="treatment-details">
+                  <h3 class="text-pink ml-2 mt-12">Treatment Details</h3>
+                  <label class="text-h5-grey uppercase text-xs font-bold">Clinical Conditions</label>
+                  <ul class="list">
+                    <?php foreach ($conditions as $condition) : ?>
+                      <li><?php echo $condition->name; ?>
+                      <?php endforeach; ?>
+                  </ul>
+                  <label class="text-h5-grey uppercase text-xs font-bold">Treatment Techniques</label>
+                  <ul class="list">
+                    <?php foreach ($treatment_technique as $technique) : ?>
+                      <li><?php echo $technique->name; ?>
+                      <?php endforeach; ?>
+                  </ul>
+                  <label class="text-h5-grey uppercase text-xs font-bold">Aligner Material</label>
+                  <p><?php the_field('aligner_material'); ?></p>
+                  <label class="text-h5-grey uppercase text-xs font-bold">Submission materials</label>
+                  <p><?php the_field('submissions_materials'); ?></p>
 
+                  <label class="text-h5-grey uppercase text-xs font-bold">Comments</label>
+                  <p><?php the_field('comments'); ?></p>
+
+                  <label class="text-h5-grey uppercase text-xs font-bold"># of Revisions</label>
+                  <p><?php the_field('#_of_revisions'); ?></p>
+
+                  <label class="text-h5-grey uppercase text-xs font-bold">Reason for revision(s)</label>
+                  <p><?php the_field('reason_for_revisions'); ?></p>
+
+                  <label class="text-h5-grey uppercase text-xs font-bold">Reason for revision(s)</label>
+                  <p><?php the_field('other_products_used'); ?></p>
+
+                  <label class="text-h5-grey uppercase text-xs font-bold">Type of Retention</label>
+                  <p><?php the_field('type_of_retention'); ?></p>
+
+                  <label class="text-h5-grey uppercase text-xs font-bold">Results Achieved</label>
+                  <p><?php the_field('results_achieved'); ?></p>
+                </div>
+              <?php endif; ?>
             </div>
           </div>
           <?php

@@ -1,0 +1,911 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Project url,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Attachment,Attachment,Custom field (Change completion date),Custom field (Change reason),Custom field (Change risk),Custom field (Change start date),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Issue color),Custom field (Rank),Custom field (Request Type),Sprint,Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Target end),Custom field (Target start),Custom field ([CHART] Date of First Response),Comment,Comment,Comment,Status Category
+Public Home Page - Footer has too much between each list of options,CCCSG-214,10213,Bug,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,23/Jan/21 10:38 AM,23/Jan/21 10:38 AM,23/Jan/21 10:41 PM,,,0,"Footer has too much between each list of options 
+Check the current screenshot and follow the design",,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,23/Jan/21 10:37 AM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-23 at 12.37.09 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10021/Screen+Shot+2021-01-23+at+12.37.09+PM.png,,,,,,,{},,,,,,,0|i0001q:r,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Public Home Page - Layout through out page is wide,CCCSG-213,10212,Bug,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,23/Jan/21 10:34 AM,23/Jan/21 10:34 AM,23/Jan/21 10:41 PM,,,0,"Layout throughout the page is wide - not as per design
+The design has a border after the div",,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,23/Jan/21 10:33 AM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-23 at 12.21.03 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10020/Screen+Shot+2021-01-23+at+12.21.03+PM.png,,,,,,,{},,,,,,,0|i0001q:i,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Public Home Page - text not align as design ,CCCSG-212,10211,Bug,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,23/Jan/21 10:33 AM,23/Jan/21 10:33 AM,23/Jan/21 10:41 PM,,,0,Attaching screenshot – please follow the design,,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,23/Jan/21 10:32 AM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-23 at 12.21.14 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10019/Screen+Shot+2021-01-23+at+12.21.14+PM.png,,,,,,,{},,,,,,,0|i0001q:,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Public Home Page - View patient story button not as per design,CCCSG-211,10210,Bug,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,23/Jan/21 10:31 AM,23/Jan/21 10:31 AM,23/Jan/21 10:41 PM,,,0,Screenshot attach - please follow deisgn,,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,23/Jan/21 10:30 AM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-23 at 12.25.10 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10018/Screen+Shot+2021-01-23+at+12.25.10+PM.png,,,,,,,{},,,,,,,0|i0001p:,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Public Home Page - slider image not as per design - they are seperated,CCCSG-210,10209,Bug,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,23/Jan/21 10:30 AM,23/Jan/21 10:30 AM,23/Jan/21 10:00 PM,,,0,"Slider image not as per design - they are separated
+Attaching screenshot -- please follow the image",,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,23/Jan/21 10:29 AM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-23 at 12.21.24 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10017/Screen+Shot+2021-01-23+at+12.21.24+PM.png,,,,,,,{},,,,,,,0|i0001o:,,CCCSG Sprint 2,,,,,,,,,,,To Do
+UAT_Home_Patient Success Marketing Page ,CCCSG-209,10208,Bug,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,22/Jan/21 10:46 AM,23/Jan/21 11:39 AM,23/Jan/21 10:41 PM,,,0," [^Home_Patient Success Marketing Page.docx] 
+",,Afzal Masra,Jamila Jones,5c6f868fca97144c4716acfe,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,22/Jan/21 10:46 AM;ug:222dce99-265d-4237-85cd-11d22a742100;Home_Patient Success Marketing Page.docx;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10016/Home_Patient+Success+Marketing+Page.docx,,,,,,,{},,,,,,,0|i00009:zzzzzzzzzc,,,,,,,,,2021-01-23 19:39:55.013,"23/Jan/21 11:39 AM;5c6f868fca97144c4716acfe;[~accountid:5ec2c2e15ba5dc0c1c590f8a] 
+These are defects are on separate - not part of sprint 1 story at all 
+Should we create a different story for the,",,,To Do
+UAT: Home_Main Marketing Page ,CCCSG-208,10207,Bug,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,22/Jan/21 10:44 AM,23/Jan/21 11:43 AM,23/Jan/21 10:41 PM,,,0,"[^Home_Main Marketing Page .docx]
+
+ 
+·       The “View case gallery” button is significantly smaller than in the Creative version
+
+·       There is too much background confetti, it obscures the text. There should be no confetti under/behind the text and button
+
+·       There is no white line separating line between the grey and pink backgrounds (see image)
+
+·       The pink background/the pink box is too small (see image)
+
+·       The confetti should extend beyond the pink background, but it does not (see image)
+
+·       There is no border around the slider image (see image)
+
+·       The links just link back the main/home page (not sure if this is because pages aren’t created yet, but just thought I’d mention it)
+
+·       The size of the “View patient stories” button is significantly smaller than the Creative version
+
+·       The “View patient stories” button link does not work. It should link to the Patient success stories marketing page
+
+·       The patient success stories “Smiles for Miles” and “@DogsandKeto” both have half the border as a grey shadow, the last one “HappyFace” doesn’t. I think we should keep it consistent for all (I prefer the all-white border)
+
+·       The ClearCorrect logo for “Smiles for Miles” is stretched. The logos for all are kind of blurry. It should be set up so that the logo remains with the correct dimensions always and would be great if it was as clear as in the Creative version
+
+·       The text for the “Doctors, ….” Sentence spacing is off. It should have “Doctors,” on one line and the rest of the text underneath (see image)
+
+·       The “View case gallery” button is significantly smaller than the creative version
+
+·       The “Sign up today” link, links back to the main page (again not sure if this is because the page hasn’t been created yet, but mentioning it regardless)
+
+·       The iPad image seems blurry/less clear than in the Creative version (not sure if this is just me)",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,22/Jan/21 10:44 AM;ug:222dce99-265d-4237-85cd-11d22a742100;Home_Main Marketing Page .docx;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10015/Home_Main+Marketing+Page+.docx,,,,,,,{},,,,,,,0|i00009:zzzzzzzzzb,,,,,,,,,,,,,To Do
+UAT: Global Footer Defects ,CCCSG-207,10206,Bug,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,22/Jan/21 10:42 AM,23/Jan/21 11:28 AM,23/Jan/21 10:41 PM,,,0,"Footer
+•	{color:#ff5630}The footer font looks different than the approved creative (could be wrong but just mentioning it) Creative it looks crisper and a little smaller actually  - {color}{color:#36b37e}*Failed*{color}
+
+* {color:#ff5630}Should read “Manage Consent Preferences” as one item (currently it’s separated into “Manage Consent” and “Preference” - {color}{color:#36b37e}Failed{color}
+
+
+
+New Requirement/Change
+
+* {color:#ff5630}Copyright should be © 2021 Institut Straumann AG (currently says 2020) {color}
+
+
+
+Later Sprint Work (I think)
+•	{color:#ff5630}None of the links in the footer work (most links can be found on ClearCorrect’s website footer, see link below){color}
+{color:#ff5630}•	Under ClearCorrect it should list and link to the following{color}
+{color:#ff5630}o	Website ({color}[https://www.straumann.com/clearcorrect/en)|https://www.straumann.com/clearcorrect/en)]
+{color:#ff5630}o	Patients (website patients tab){color}
+{color:#ff5630}o	Doctors (website doctors tab){color}
+{color:#ff5630}o	About Us (website about us tab){color}
+{color:#ff5630}o	Case Gallery (would take them to the cases page){color}
+{color:#ff5630}o	Admin Login (would take them to admin login page){color}
+
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzzz9,,,,,,,,,,,,,To Do
+UAT: Global Header Defects,CCCSG-206,10205,Bug,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,22/Jan/21 10:41 AM,23/Jan/21 11:24 AM,23/Jan/21 10:41 PM,,,0,"Header
+•	ClearCorrect logo is missing from the header - *Passed*
+•	Case Gallery link in the header links to the Patient Success Stories page and not the main marketing page (I am assuming that this is the link that will be in the clear correct website, but if not, either way it should either link to the main marketing page or the actual case gallery cases, not the patient success story page) - *Passed*
+•	The word “search” is supposed to be capitalized - *Passed*
+•{color:#ff5630}	Search bar in header doesn’t produce any search results (not sure what it was supposed to do, it didn’t function in the creative environment) -{color}{color:#36b37e} *Failed*{color}
+•	Spyglass icon missing from header (next to the search bar) - *Passed*
+•	{color:#ff5630}When you click on the search bar an odd box appears around it, I don’t really like this and if possible would like some other way to highlight that the search tool is being used (i.e., maybe a highlighted area or just nothing but a cursor appearing or something like that) - {color}{color:#36b37e}*Failed*{color}",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzzz4,,,,,,,,,,,,,To Do
+UAT: Global Header Defects ,CCCSG-205,10204,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,22/Jan/21 10:40 AM,22/Jan/21 10:41 AM,23/Jan/21 10:41 PM,22/Jan/21 10:41 AM,,0,"Header
+•	ClearCorrect logo is missing from the header
+•	Case Gallery link in the header links to the Patient Success Stories page and not the main marketing page (I am assuming that this is the link that will be in the clearcorrect website, but if not, either way it should either link to the main marketing page or the actual case gallery cases, not the patient success story page)
+•	The word “search” is supposed to be capitalized
+•	Search bar in header doesn’t produce any search results (not sure what it was supposed to do, it didn’t function in the creative environment)
+•	Spyglass icon missing from header (next to the search bar)
+•	When you click on the search bar an odd box appears around it, I don’t really like this and if possible would like some other way to highlight that the search tool is being used (i.e., maybe a highlighted area or just nothing but a cursor appearing or something like that)
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0001r:,,,,,,,,,,,,,Done
+Marketing page_Full Bleed image different than design_size needs to be adjusted,CCCSG-204,10203,Bug,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,14/Jan/21 11:48 AM,23/Jan/21 10:42 AM,19/Jan/21 3:28 PM,,,0,Check out screenshot - size needs to be adjusted,,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,14/Jan/21 11:48 AM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;current.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10014/current.png,14/Jan/21 11:48 AM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;design.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10013/design.png,,,,,,{},,,,,,,0|i00012:wzzx,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,,"23/Jan/21 10:42 AM;5c6f868fca97144c4716acfe;Test Failed - not as per design
+Its full bleed but the doctors head is cut off in the design 
+
+please follow as per design",,,In Progress
+Marketing page_text on first component ,CCCSG-203,10202,Bug,UAT,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Jamie Somers,5fb5979af8b01200695cf6dd,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,14/Jan/21 11:42 AM,23/Jan/21 11:16 AM,21/Jan/21 2:58 PM,,,0,"The subhead text ""aligners"" word is hard to read put on top of the background image/icons.
+
+https://clearcorrecthq.slack.com/files/U01D2EYP389/F01KFG3N5NU/screen_shot_2021-01-14_at_10.34.59_am.png",,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:wzzv,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,,,,,In Progress
+Marketing Page - header missing,CCCSG-202,10201,Bug,UAT,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Jamie Somers,5fb5979af8b01200695cf6dd,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 1:33 PM,23/Jan/21 11:41 AM,23/Jan/21 10:41 PM,,,0,attaching the design of the header,,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,12/Jan/21 1:32 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;design.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10012/design.png,,,,,,,{},,,,,,,0|i00009:zzzzzzzzzd,,,,,,,,,,"23/Jan/21 11:41 AM;5c6f868fca97144c4716acfe;Completed as part of a different defect, please avoid creating duplicates
+
+[~accountid:5ec2c2e15ba5dc0c1c590f8a] ",,,In Progress
+Public Home Page_Marketing - text - spacing issue,CCCSG-201,10200,Bug,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 1:29 PM,23/Jan/21 10:11 AM,21/Jan/21 12:23 AM,,,0,"Compare design vs current
+
+Expected result
+Doctor, -  needs to be on a different line
+
+Please observe all other spacing and fix accordingly ",,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,12/Jan/21 1:28 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;current.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10011/current.png,12/Jan/21 1:28 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;design.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10010/design.png,,,,,,{},,,,,,,0|i00012:wzzr,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,,23/Jan/21 10:11 AM;5c6f868fca97144c4716acfe;Test Failed - not as per design,,,In Progress
+Marketing page - Text needs to be bold as per design,CCCSG-200,10199,Bug,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 1:24 PM,23/Jan/21 10:19 AM,21/Jan/21 12:22 AM,,,0,This text needs to be bold ,,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,12/Jan/21 1:24 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-12 at 3.23.03 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10009/Screen+Shot+2021-01-12+at+3.23.03+PM.png,,,,,,,{},,,,,,,0|i00012:wzzi,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,,23/Jan/21 10:19 AM;5c6f868fca97144c4716acfe;Test Failed,,,In Progress
+MarketingPage - Background design missing as per design,CCCSG-199,10198,Bug,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 1:14 PM,14/Jan/21 8:44 AM,23/Jan/21 10:41 PM,14/Jan/21 8:44 AM,,0,Please check the screenshot,,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,12/Jan/21 1:14 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Current.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10008/Current.png,12/Jan/21 1:14 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Design.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10007/Design.png,,,,,,{},,,,,,,0|i00012:wzz,,CCCSG Sprint 1,,,,,,,,,,,Done
+Marketing Page - Too much extra white space (Attaching Screenshot),CCCSG-198,10197,Bug,UAT,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Jamie Somers,5fb5979af8b01200695cf6dd,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 1:09 PM,23/Jan/21 11:16 AM,20/Jan/21 11:12 PM,,,0,,,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,12/Jan/21 1:09 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-12 at 3.05.50 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10006/Screen+Shot+2021-01-12+at+3.05.50+PM.png,12/Jan/21 1:09 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-12 at 3.05.55 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10005/Screen+Shot+2021-01-12+at+3.05.55+PM.png,,,,,,{},,,,,,,0|i00012:wzy,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,,14/Jan/21 8:47 AM;5c6f868fca97144c4716acfe;1/14 - issue still exist,,,In Progress
+patient success story_issues,CCCSG-197,10196,Bug,UAT,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Jamie Somers,5fb5979af8b01200695cf6dd,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 1:02 PM,23/Jan/21 11:14 AM,20/Jan/21 11:09 PM,,,0,"1. ClearCorrect logo missing from pic
+2. Too much space with image and white box, check the design - enlarge the image
+3. Between title (ex - Happy Face) and image - not enough space - check design 
+4. Design missing form the background - check the design
+
+
+
+Screenshot attached for the current implementation",,Afzal Masra,Tyler Hill,5c6f868fca97144c4716acfe,5ed92eac3a629c0a9bbc2061,,,,,,,,,CCCSG-13,12/Jan/21 12:55 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-12 at 2.51.57 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10004/Screen+Shot+2021-01-12+at+2.51.57+PM.png,,,,,,,{},,,,,,,0|i00012:wzv,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,2021-01-21 07:09:39.219,"14/Jan/21 8:47 AM;5c6f868fca97144c4716acfe;1/14 - Image border still different as per the design 
+Moving this back","20/Jan/21 11:09 PM;5ed92eac3a629c0a9bbc2061;[~accountid:5c6f868fca97144c4716acfe] thanks for the feedback, I think I got the border/image right this time. LMK\! 😎 ",23/Jan/21 10:16 AM;5c6f868fca97144c4716acfe;Test Passed,In Progress
+"Search, Login, and Register options link missing as per story",CCCSG-196,10195,Bug,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 12:49 PM,23/Jan/21 10:20 AM,20/Jan/21 10:15 PM,,,0,"GIVEN I am on a Page, when I see the Navigation, then I see a Link to the Case Gallery, Search, Login and Register options
+
+
+I am not able to Search, Login, and Register options link",,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:wzr,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,,"14/Jan/21 8:49 AM;5c6f868fca97144c4716acfe;1/14 - 
+ Search, Login, and Register should be a link (Not link right now)
+Clear correct logo on header not loading 
+”Case Gallery” is not a link as per design","23/Jan/21 10:20 AM;5c6f868fca97144c4716acfe;Test Failed
+Login, and Register should be a link (Not link right now)",,In Progress
+Global Footer_Issues,CCCSG-195,10194,Bug,UAT,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Jamie Somers,5fb5979af8b01200695cf6dd,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 12:47 PM,23/Jan/21 11:15 AM,20/Jan/21 11:09 PM,,,0,"""Register as Provider"" adjust it on the same line
+""Straumann Group Brands"" adjust it on the same line
+
+So the footer is align",,Afzal Masra,Tyler Hill,5c6f868fca97144c4716acfe,5ed92eac3a629c0a9bbc2061,,,,,,,,,,12/Jan/21 12:45 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-11 at 7.52.48 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10003/Screen+Shot+2021-01-11+at+7.52.48+PM.png,,,,,,,{},,,,,,,0|i00012:wzx,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,2021-01-21 07:11:36.531,"20/Jan/21 11:11 PM;5ed92eac3a629c0a9bbc2061;I’ve adjusted the CSS here, please take another look 🙏 ",,,In Progress
+MarketingPage FireFox - Extra Space on the browser,CCCSG-194,10193,Bug,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 12:42 PM,14/Jan/21 8:43 AM,14/Jan/21 1:22 AM,14/Jan/21 8:43 AM,,0,Check the screenshot,,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,12/Jan/21 12:42 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-11 at 7.46.40 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10002/Screen+Shot+2021-01-11+at+7.46.40+PM.png,,,,,,,{},,,,,,,0|i00012:wzi,,CCCSG Sprint 1,,,,,,,,,,,Done
+MarketingPage - Safari - Extra space on the safari browser,CCCSG-193,10192,Bug,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 12:37 PM,14/Jan/21 8:43 AM,14/Jan/21 1:34 AM,14/Jan/21 8:43 AM,,0,Check the screenshot,,Afzal Masra,,5c6f868fca97144c4716acfe,,,,,,,,,,,12/Jan/21 12:36 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-11 at 7.46.03 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10001/Screen+Shot+2021-01-11+at+7.46.03+PM.png,,,,,,,{},,,,,,,0|i00012:wz,,CCCSG Sprint 1,,,,,,,,,,,Done
+"Public Home Page - Missing - Two image slider, Arrow functionality down the middle of the two images ",CCCSG-192,10191,Bug,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Afzal Masra,5c6f868fca97144c4716acfe,Afzal Masra,5c6f868fca97144c4716acfe,12/Jan/21 12:36 PM,23/Jan/21 10:14 AM,23/Jan/21 10:21 PM,,,0,"Actual Result - Missing - Two image slider, Arrow functionality down the middle of the two images 
+
+
+Expected Result - Check the screenshot out, and compare it with the design",,Afzal Masra,Tyler Hill,5c6f868fca97144c4716acfe,5ed92eac3a629c0a9bbc2061,,,,,,,,,,12/Jan/21 12:34 PM;ug:123580a4-c2e3-4f88-8485-9246eb7df66c;Screen Shot 2021-01-11 at 8.41.27 PM.png;https://clearcorrect-creativecircle.atlassian.net/secure/attachment/10000/Screen+Shot+2021-01-11+at+8.41.27+PM.png,,,,,,,{},,,,,,,0|i00012:wzm,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,2021-01-21 04:11:00.137,"20/Jan/21 8:11 PM;5ed92eac3a629c0a9bbc2061;I’m using placeholder images here to make the before/after more obvious to QA, we can replace w/ the real assets later.","23/Jan/21 10:14 AM;5c6f868fca97144c4716acfe;Test Failed _ 
+
+* Before and After the test is extra
+* After the images are half cut",,In Progress
+BE: ZenDesk Chat Integration,CCCSG-190,10189,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 9:19 PM,09/Dec/20 9:19 PM,23/Jan/21 10:41 PM,,,0,"
+“As a ClearCorrect IT lead,
+
+I need AEM to be integrated with pre-existing ZenDesk Chat so users will be able to continue to access its features.” 
+
+
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzzzi,,,,,,,,,,,,,To Do
+BE:  Public Home Page_Image Component,CCCSG-108,10107,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 1:12 PM,12/Jan/21 1:19 PM,23/Jan/21 10:41 PM,12/Jan/21 1:19 PM,,0,"
+As a USER:
+
+I want a component that will display images at different breakpoints / treatments Full bleed photo (no text) 
+V2: Half Bleed, no text (refer to bottom of Public Home) 
+V3: 
+
+ASSOCIATED FE TICKET: CCCSG-14
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:wx,,CCCSG Sprint 1,,,,,,,,,,,Done
+BE:  Public Home Page_Image Slider,CCCSG-107,10106,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 1:11 PM,12/Jan/21 12:47 PM,12/Jan/21 2:44 PM,12/Jan/21 12:47 PM,,0,"
+As a USER:
+
+I want a component that will display a set of before and after images that I can scroll through
+Two image slider, Arrow functionality down the middle of the two images
+
+ASSOCIATED FE TICKET: CCCSG-13
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:t,,CCCSG Sprint 1,,,,,,,,,,,Done
+BE:  Public Home Page_Image Slider,CCCSG-106,10105,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 1:10 PM,12/Jan/21 12:47 PM,12/Jan/21 2:45 PM,12/Jan/21 12:47 PM,,0,"
+As a USER:
+
+I want a component that will display a set of before and after images that I can scroll through
+Two image slider, Arrow functionality down the middle of the two images
+
+ASSOCIATED FE TICKET: CCCSG-12
+",,Afzal Masra,Jamila Jones,5c6f868fca97144c4716acfe,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:m,,CCCSG Sprint 1,,,,,,,2021-01-12 02:44:17.747,"11/Jan/21 6:44 PM;5c6f868fca97144c4716acfe;11/1  - I am not able to see arrow functionality down the middle of the two images 
+So moving this to back to progress",,,Done
+BE:  Public Home Page_First Component Image Display,CCCSG-105,10104,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 1:08 PM,12/Jan/21 9:35 AM,23/Jan/21 10:41 PM,11/Jan/21 6:21 PM,,0,"
+AS a USER:
+
+I WANT a component that will display various images 
+
+Image carousel, all images have ClearCorrect logo on border.  Center Image slightly enlargedIs this a carousel or a stagnant image display? 
+
+ASSOCIATED FE TICKET: CCCSG-11
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:9,,CCCSG Sprint 1,,,,,,,,,,,Done
+BE:  Public Home Page_CTA,CCCSG-104,10103,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 1:07 PM,12/Jan/21 2:43 PM,12/Jan/21 2:43 PM,12/Jan/21 2:43 PM,,0,"
+As a USER:
+
+I need a button that give me a specific call to action that I can click and navigate to different areas of the site
+Full Color Treatment (pink/red)
+White Text
+Click Thru – “View Case Gallery”
+Variations:
+V2: Outline, No Filler Color, Text
+V3: Full Color, Text, Filled in White, Red Text
+V4: Submit CTA Doctor Registration Form 
+
+ASSOCIATED FE TICKET: CCCSG-10
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00011:i,,CCCSG Sprint 1,,,,,,,,,,,Done
+BE:  Public Home Page_Text Component,CCCSG-103,10102,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 1:04 PM,12/Jan/21 1:19 PM,23/Jan/21 10:41 PM,12/Jan/21 1:19 PM,,0,"
+AS a USER:
+
+I WANT a component that has full text formatting capabilities for placement across the site.
+Large title, Paragraph body copy
+Variations:
+V2: Header, Paragraph Copy + Arrows with Clickable Text (font color adjustments)
+V3: Header + Title Only
+V4: What is This Text Component – Basic Test (Patient Authenticated)
+
+
+ASSOCIATED FE TICKET: CCCSG-9
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:w,,CCCSG Sprint 1,,,,,,,,,,,Done
+BE:  Global Footer,CCCSG-101,10100,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 1:01 PM,22/Jan/21 11:01 AM,23/Jan/21 10:41 PM,22/Jan/21 11:01 AM,,0,"
+AS a USER:
+
+I WANT a component that will be located at the bottom of the webpage and will contain links to legal documents, site instructions, contact information, privacy policy, Ortho brand websites, etc.”
+GIVEN I am on a Page, when I see the Footer, THEN I will see three categories of Information: ClearCorrect, Tools and Services, and Straumann Group Brands. Under Clear Correct I will find: Patients, Doctors and Admin Login. Under Tools and Services, I will find: Register as a Provider, Course Calendar, Support, Jobs and Worldwide Locations. Under Straumann Group Brands, I will find: Straumann Group, Straumann, Neodent and Medentika.
+Share Icons: Facebook, Instagram, Twitter and YouTube
+Copyright Text
+Links to Legal Notice, Privacy Notice, Imprint, Manage, Consent and Preference 
+
+
+ASSOCIATED FE TICKET: CCCSG-7
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0001l:,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,,,,,Done
+BE: Global Navigation,CCCSG-100,10099,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 12:59 PM,12/Jan/21 12:49 PM,23/Jan/21 10:41 PM,12/Jan/21 12:49 PM,,0,"
+AS a USER:
+I WANT a component that will display links to various sections of the website
+SO THAT I can accurately navigate between pages
+GIVEN I am on a Page, when I see the Navigation, then I see a Link to the Case Gallery, Search, Login and Register options 
+
+ASSOCIATED FE TICKET: CCCSG-6
+",,Afzal Masra,Jamila Jones,5c6f868fca97144c4716acfe,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:u,,CCCSG Sprint 1,,,,,,,2021-01-12 02:37:34.443,"11/Jan/21 6:37 PM;5c6f868fca97144c4716acfe;1/11 - I do not see Search, Login, and Register options Link to navigate further- this story is incomplete",,,Done
+BE: Public User Flow (All Pages),CCCSG-97,10096,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 12:00 PM,22/Jan/21 10:36 AM,23/Jan/21 10:41 PM,22/Jan/21 10:36 AM,,0,"As a USER:
+
+I need a Public Facing View that will provide me with key details and access to critical pages. 
+
+GIVEN I am within the Public User Flow, THEN I will see the Public Home Page, Public Stories, Public Login, Public Doctor Login, Public Patient Login, Public Register, Public Doctor Registration, Public Patient Registration, Public Case Gallery, Public Case Gallery/Filtered Gallery, Public Doctor Profile and Public Case Detail Pages 
+
+ASSOCIATED FE TICKET: CCCSG-3",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00008:,,CCCSG Sprint 1,,,,,,,,,,,Done
+FE:  DD Patient_Nav,CCCSG-96,10095,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:45 AM,22/Jan/21 10:35 AM,23/Jan/21 6:26 PM,,,0,"
+As a PATIENT  I need access to a dropdown menu to navigate my individualized experience
+GIVEN I am in the DD Patient_Nav THEN I see the following options
+-Dashboard
+-Messages
+-Sign Out
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzzy,,CCCSG Sprint 3,,,,,,,,,,,To Do
+FE:  DD Case_Sort,CCCSG-95,10094,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:45 AM,22/Jan/21 10:35 AM,23/Jan/21 10:41 PM,,,0,"
+As a USER I need access to a dropdown menu that will allow me to sort cases
+GIVEN I am in the DD Case_Sort THEN I see the following options
+-Most Recent
+-Most Saved
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzzx,,CCCSG Sprint 3,,,,,,,,,,,To Do
+FE:  DD Admin_Role,CCCSG-94,10093,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:44 AM,22/Jan/21 10:35 AM,23/Jan/21 4:09 PM,,,0,"
+As an ADMIN I need access to a dropdown menu to view users by their assigned role
+GIVEN I am in the DD Admin_Role THEN I see the following options
+-Patient
+-Admin
+-Super Admin
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzzv,,CCCSG Sprint 3,,,,,,,,,,,To Do
+FE:  DD Admin_Nav,CCCSG-93,10092,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:44 AM,22/Jan/21 10:35 AM,23/Jan/21 10:41 PM,,,0,"
+
+As an ADMIN I need access to a dropdown menu to navigate my individualized experience
+GIVEN I am in the DD Admin-Nav THEN I see the following options
+-Dashboard
+-Messages
+-Sign Out
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzzr,,CCCSG Sprint 3,,,,,,,,,,,To Do
+FE:  DD Case_Filter,CCCSG-92,10091,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:43 AM,22/Jan/21 10:35 AM,23/Jan/21 10:41 PM,,,0,"
+As a USER I need access to a dropdown menu that will allow me to filter cases
+GIVEN I am in the DD Case_Filter THEN  I see the following options
+-Published
+-Pending
+-Drafts
+-Rejected
+
+
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzzi,,CCCSG Sprint 3,,,,,,,,,,,To Do
+FE:  DD Doctor_Nav,CCCSG-91,10090,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:42 AM,22/Jan/21 10:35 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need access to a dropdown menu to navigate my individualized experience
+GIVEN I am in the DD Doctor_Nav THEN I see the following options
+-Dashboard
+-Messages
+-My Profile
+-Liked Submissions
+-Sign Out
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzz,,CCCSG Sprint 3,,,,,,,,,,,To Do
+FE:  Email Admin_Report ,CCCSG-89,10088,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:41 AM,22/Jan/21 10:35 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN I need to receive an automated   email detailing a weekly status report
+
+
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzx,,CCCSG Sprint 3,,,,,,,,,,,To Do
+FE:  Email Admin_Assignment ,CCCSG-88,10087,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:41 AM,22/Jan/21 10:35 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN I need to receive an automated   email confirmation that I have received a new review assignment
+GIVEN I am on the Email Admin_Assignment confirmation email, I will see the ClearCorrect logo, text, the submission type and region with font treatment, and a “View Dashboard” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzv,,CCCSG Sprint 3,,,,,,,,,,,To Do
+FE:  Email Admin_Status ,CCCSG-87,10086,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:40 AM,22/Jan/21 10:35 AM,23/Jan/21 10:41 PM,,,0,"
+As a USER  I need to receive an automated   email confirmation that my status has been changed to or from Admin
+GIVEN I am on the Email Admin_Status confirmation email, I will see the ClearCorrect logo, text, the USER Status  with font treatment, and a “View Dashboard” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzr,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Admin_PostSubmission ,CCCSG-86,10085,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:40 AM,22/Jan/21 12:06 PM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN I need to receive an automated   email confirmation that I have a new post has been submitted for review
+GIVEN I am on the Email Admin_PostSubmissoin confirmation email, I will see the ClearCorrect logo, text, the Post  ID with font treatment, and a “View Dashboard” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzi,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Admin_Submission Review  ,CCCSG-85,10084,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:31 AM,22/Jan/21 12:06 PM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN I need to receive an automated   email confirmation that I have a new submission has been submitted for review
+GIVEN I am on the Email Admin_Submissoin Review confirmation email, I will see the ClearCorrect logo, text, the submission ID with font treatment, and a “View Dashboard” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzz,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Doctor_CaseRejected ,CCCSG-84,10083,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:30 AM,22/Jan/21 12:06 PM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need to receive an automated   email confirmation that my post was rejected
+GIVEN I am on the Email Doctor_Case Rejected confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment, and a “Login to my account” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzy,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Doctor_CaseApproved ,CCCSG-83,10082,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:30 AM,22/Jan/21 11:30 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need to receive an automated   email confirmation that my post was approved
+GIVEN I am on the Email Doctor_Case Approved confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment, and a “View Case Gallery” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzx,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Doctor_CaseSubmitted ,CCCSG-82,10081,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:29 AM,22/Jan/21 11:30 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need to receive an automated   email confirmation that my post was submitted
+GIVEN I am on the Email Doctor_Case Submitted confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzv,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Patient_PostRejected ,CCCSG-81,10080,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:29 AM,22/Jan/21 11:30 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT I need to receive an automated   email confirmation that my post was rejected
+GIVEN I am on the Email Patient_Post Rejected confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment, and a “Login to my account” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzr,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Patient_PostApproved,CCCSG-80,10079,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:28 AM,22/Jan/21 11:30 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT I need to receive an automated  email confirmation that my post was approved
+GIVEN I am on the Email Patient_Post Approved confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment, and a “View Success Stories” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzi,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Patient_Post Submitted,CCCSG-79,10078,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,09/Dec/20 11:28 AM,22/Jan/21 11:30 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT I need to receive an automated  email confirmation that my post was submitted
+GIVEN I am on the Email Patient_Post Submitted confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzz,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin Dash_AssignmentsEdit,CCCSG-78,10077,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:25 PM,22/Jan/21 11:29 AM,23/Jan/21 10:41 PM,,,0,"
+As a DEVELOPER I need a visual representation of the screen ADMINs will use to assign and edit reviewers on submissions
+Assignment modal, 
+Close modal button top right,
+Region and type of submission review with Font treatment, ‘Admins’ Title, Checkboxes with admin emails, “save and close” button and “cancel” button
+
+
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzy,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Admin_Report,CCCSG-77,10076,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:25 PM,22/Jan/21 11:29 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN I need to receive an automated   email detailing a weekly status report
+
+
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzx,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Admin_Assignment,CCCSG-76,10075,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:24 PM,22/Jan/21 11:29 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN I need to receive an automated   email confirmation that I have received a new review assignment
+GIVEN I am on the Email Admin_Assignment confirmation email, I will see the ClearCorrect logo, text, the submission type and region with font treatment, and a “View Dashboard” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzv,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Admin_Status ,CCCSG-75,10074,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:23 PM,22/Jan/21 11:29 AM,23/Jan/21 10:41 PM,,,0,"
+As a USER  I need to receive an automated   email confirmation that my status has been changed to or from Admin
+GIVEN I am on the Email Admin_Status confirmation email, I will see the ClearCorrect logo, text, the USER Status  with font treatment, and a “View Dashboard” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzr,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Admin_PostSubmission,CCCSG-74,10073,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:22 PM,22/Jan/21 11:28 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN I need to receive an automated   email confirmation that I have a new post has been submitted for review
+GIVEN I am on the Email Admin_PostSubmissoin confirmation email, I will see the ClearCorrect logo, text, the Post  ID with font treatment, and a “View Dashboard” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzi,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Admin_Submission Review ,CCCSG-73,10072,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:22 PM,22/Jan/21 11:28 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN I need to receive an automated   email confirmation that I have a new submission has been submitted for review
+GIVEN I am on the Email Admin_Submissoin Review confirmation email, I will see the ClearCorrect logo, text, the submission ID with font treatment, and a “View Dashboard” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzz,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Doctor_CaseRejected ,CCCSG-72,10071,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:20 PM,22/Jan/21 11:28 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need to receive an automated   email confirmation that my post was rejected
+GIVEN I am on the Email Doctor_Case Rejected confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment, and a “Login to my account” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzy,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Doctor_CaseApproved ,CCCSG-71,10070,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:19 PM,22/Jan/21 11:28 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need to receive an automated   email confirmation that my post was approved
+GIVEN I am on the Email Doctor_Case Approved confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment, and a “View Case Gallery” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzx,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Doctor_CaseSubmitted ,CCCSG-70,10069,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:19 PM,22/Jan/21 11:28 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need to receive an automated   email confirmation that my post was submitted
+GIVEN I am on the Email Doctor_Case Submitted confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzv,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Patient_PostRejected,CCCSG-69,10068,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:18 PM,22/Jan/21 11:27 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT I need to receive an automated   email confirmation that my post was rejected
+GIVEN I am on the Email Patient_Post Rejected confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment, and a “Login to my account” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzr,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Patient_PostApproved ,CCCSG-68,10067,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:18 PM,22/Jan/21 11:27 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT I need to receive an automated  email confirmation that my post was approved
+GIVEN I am on the Email Patient_Post Approved confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment, and a “View Success Stories” CTA
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzi,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Email Patient_Post Submitted,CCCSG-67,10066,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:17 PM,22/Jan/21 11:27 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT I need to receive an automated  email confirmation that my post was submitted
+GIVEN I am on the Email Patient_Post Submitted confirmation email, I will see the ClearCorrect logo, text, and the post ID number with font treatment
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzz,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Doctor Case Edit,CCCSG-66,10065,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:15 PM,22/Jan/21 11:27 AM,23/Jan/21 10:41 PM,,,0,"
+As a Developer
+
+I need a visual representation of a filled out doctor case form with Uploaded content  
+GIVEN I am on the doctor case edit and it is filled out, I will see all queries submitted, names of all uploaded documents, URL for treatment set up and names of additional uploaded documents 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzy,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Public Case Gallery Modal,CCCSG-65,10064,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:15 PM,22/Jan/21 11:27 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need a modal to restrict access to doctor authenticated content 
+Given I am on the public case gallery modal, I see text, a doctor sign up call to action and a button to click to close the modal. 
+
+
+
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzx,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Public Patient Registration Filled,CCCSG-64,10063,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:12 PM,22/Jan/21 11:27 AM,23/Jan/21 10:41 PM,,,0,"
+As a DEVELOPER
+
+I need a visual representation of filled out Public Patient Registration Form 
+Given I am on the public registration form, and I have filled it out, all queries will be submitted. 
+
+No validation alers
+
+Password hidden 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzv,,CCCSG Sprint 3,,,,,,,,,,,To Do
+ Admin_Public Patient Registration Error ,CCCSG-63,10062,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:12 PM,22/Jan/21 11:27 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need to validate data entered into the patient registration fields 
+GIVEN I am on the patient registration form, I will validate email addresses, passwords, and agreement to the patient consent before allowing a patient to submit 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzr,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Public Doctor Registration Modal,CCCSG-62,10061,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:11 PM,22/Jan/21 11:26 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need a modal that will provide instructions to the USER when they need to figure out how to access their USER number 
+When I am on the Public Doctor Registration Modal, I see text instructions (hard coded) 
+
+There is an X button to close the modal  
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzi,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Public Stories Modal,CCCSG-61,10060,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:10 PM,22/Jan/21 11:26 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need access to the user submission so that I can validate it 
+When I am on the Post Review Page, then I will see a Patient Before and After Image, aligned LEFT with a title and a patient quote. 
+
+With a Find a Provide CTA 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzz,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Users Delete ,CCCSG-60,10059,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:10 PM,22/Jan/21 11:26 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need the ability to delete a user 
+GIVEN I am on the Admin User delete screen, I see text, a Users email address, a DELETE use button and a cancel button 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzy,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Post Reject,CCCSG-59,10058,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:09 PM,22/Jan/21 11:26 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need the ability to reject the post and patient with the reason why 
+GIVEN I am on the ADMIN post reject screen, I see text, case ID number with a font treatment and an area to enter comments a REJECT Post  button and an CANCEL button
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzx,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Post Approved ,CCCSG-58,10057,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:07 PM,22/Jan/21 11:26 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need a confirmation screen that shows that a post has been published 
+GIVEN I am on the ADMIN post approved screen then I see test, a case ID with font treatment and RETURN TO DASHBOARD CTA 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzv,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Case Reject,CCCSG-57,10056,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:07 PM,22/Jan/21 11:26 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need the ability to reject a case and send a message explaining why to a user 
+Given I am on the ADMIN case reject screen, I will see text, the case ID (font treatment) , an area for the admin to enter an explanation, a Reject Case button and Cancel button
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzr,,CCCSG Sprint 3,,,,,,,,,,,To Do
+ Admin_Case Approved,CCCSG-56,10055,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:06 PM,22/Jan/21 11:26 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need a page that will confirm a case submission 
+When I am on the Admin Case Approved Screen I will see Text, Case ID and Return to Dashboard CTA 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzi,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Case Publish ,CCCSG-55,10054,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:06 PM,22/Jan/21 11:25 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need access to a modal that will allow me to confirm publishing my submission 
+When I am on the Case Publish Modal then I will see Text, submission ID and a Publish clickable Button, or Cancel Clickable button
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zz,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Post Review ,CCCSG-54,10053,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:05 PM,22/Jan/21 11:24 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need access to the user submission so that I can approve it 
+When I am on the Post Review Page, then I will see a Patient Before and After Image, aligned LEFT with a title and a patient quote. 
+
+With a Find a Provide CTA 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zy,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Messages_Sent  ,CCCSG-53,10052,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:04 PM,22/Jan/21 11:24 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+
+I need an area to see my sent messages
+When I am in the Messages Sequence and I am on the SENT tab I will see the following titles Date, Subject, Type and Message. 
+
+There is an up and down arrow for each title 
+
+There is a font color treatment for subject and it is clickable 
+
+There is also a undefined status for some of the sent items denoted as “View” 
+
+There is pagination at the bottom of the page - filled in red circle denotes users page
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zx,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Messages Received ,CCCSG-52,10051,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:03 PM,22/Jan/21 11:24 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+I need an area to view all of my messages 
+
+GIVEN I am in the ADMIN Messages Sequence, when I am on the RECEIVED tab then I see Date, Subject, Type and Message. 
+
+
+Up and down arrows for each title. 
+
+Subject has a font treatment and its clickable. 
+
+There is pagination at the bottom of the page - filled in red circle denotes users page
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zv,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Dash_Assignemnts ,CCCSG-51,10050,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:02 PM,22/Jan/21 11:23 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN
+
+I would like to have a filtered view of all open Assignments 
+Given I am on the Assignments THEN I see the Assignment, Assigned Admins (Multiple people) , and Action (Clickable / Font color treatment) 
+
+Up and Down only available for Assignment 
+
+
+
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zr,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin_Dash_Users,CCCSG-50,10049,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:01 PM,22/Jan/21 11:23 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN 
+I would like to have a filtered view of all users
+Given I am on the User tab, THEN I see the following titles, email, created, role (needs to be defined) , action (Drown down menu) , option to delete (font treatment, clickable) 
+
+Each title has an up and down arrow
+
+There is pagination at the bottom of the page - filled in red circle denotes users page
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zi,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin Dash_Patient Post ,CCCSG-49,10048,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 6:00 PM,22/Jan/21 11:23 AM,23/Jan/21 10:41 PM,,,0,"
+As and ADMIN 
+I need the ability to see a filterable view of the patient posts 
+Given I am on the Patient Post tab THEN I see the following titles, Post ID (font color treatment/clickable)  Date, Email, Patient ID, Region, Status, Action (font color treatment/clickable) 
+
+Top Level Filters + Search 
+
+Each title has an up and down arrow. 
+
+There is pagination at the bottom of the page - filled in red circle denotes users page
+
+There is pagination at the bottom of the page - filled in red circle denotes users page 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:z,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin Dash_Cases ,CCCSG-48,10047,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:59 PM,22/Jan/21 11:23 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN
+I need the ability to see a filterable view of submissions 
+Given I am on the Submissions Tab of the Admin Dashboard THEN I see the following titles Sub Id (font color treatment / clickable), Date, Doctor, Patient ID, Region, Status and Action (font color treatment/ clickable) ) . 
+
+Top level FIlters + Search 
+
+Each title has an up and down arrow. 
+
+There is pagination at the bottom of the page - filled in red circle denotes users page
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:y,,CCCSG Sprint 3,,,,,,,,,,,To Do
+Admin Dash_User Flow,CCCSG-47,10046,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:58 PM,22/Jan/21 11:22 AM,23/Jan/21 10:41 PM,,,0,"
+As an ADMIN
+I need the ability to access key gallery data 
+GIVEN I am within the Admin User Flow, THEN I will see the Public Home Page, Public Stories, Public Login
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:x,,CCCSG Sprint 3,,,,,,,,,,,To Do
+ Doctor Authenticated_ DoctorProfile_Create,CCCSG-46,10045,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:26 PM,22/Jan/21 10:59 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need to be able to create and edit my profile information
+Account info, email address (email input), ClearCorrect User Number (Unique ID auto-populated), Terms and conditions (clickable link), Agreed to on (date), Doctor consent agreement (clickable link), Agreed to on(date), Personal info, First Name (text), Last name(text), Degree (dropdown), Specialty(dropdown), Image upload (browse), about you (text area), Education and training(text area), Practice info, practice country(dropdown), Practice State or Province(dropdown), address (text), second address (text), city (text), zip/postal(text), practice email (email input), phone (text), website(URL input), Save button, cancel button
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:li,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_Search Results,CCCSG-45,10044,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:20 PM,22/Jan/21 11:04 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need access to view my search results
+Left hand side full filter + filtered view 
+Type
+Page
+Submission
+Doctor Profile
+Country
+Search Results
+Results Sort (Dropdown)
+Search results 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:w,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_Liked Cases,CCCSG-44,10043,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:18 PM,22/Jan/21 11:04 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need access to a gallery of cases that I have previously marked as “liked”
+Left hand side full filter + filtered view 
+Classifications 
+Clinical Conditions 
+Level of Difficulty 
+Aligner Wear Schedule 
+Total Treatment Time 
+Gender 
+Country
+Search Results
+Results Sort (Dropdown)
+Search results 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:s,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_Message detail,CCCSG-43,10042,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:14 PM,22/Jan/21 11:03 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need to be able to open and read my dashboard messages 
+Message received (date), Subject(case number), Status, Message (text body), Message close button
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzzzzi,,CCCSG Sprint 2,,,,,,,,,,,To Do
+ Doctor Authenticated_Messages ,CCCSG-42,10041,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:13 PM,22/Jan/21 11:03 AM,23/Jan/21 9:59 PM,,,0,"
+As a DOCTOR I need a page that will detail all of my dashboard messages
+Messages heading, received (results sort), subject(results sort), status(results sort), message (results sort), view (clickable link), messages messages results, results page navigation
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzzzy,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_Submit Confirm,CCCSG-41,10040,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:12 PM,22/Jan/21 11:03 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need a page that will confirm my submit action
+Text Heading 
+Text SubHeading 
+CTA to Return to Dashboard
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzzzv,,CCCSG Sprint 2,,,,,,,,,,,To Do
+ Doctor Authenticated_Delete Confirm,CCCSG-40,10039,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:11 PM,22/Jan/21 11:03 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need a page that will confirm my delete action
+Text Heading 
+Text SubHeading 
+CTA to Return to Dashboard
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzzzi,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_Delete Submission ,CCCSG-39,10038,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:09 PM,22/Jan/21 11:02 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need a popup that will confirm the case I want to delete
+Text Heading 
+Text SubHeading 
+Delete Submission button
+Cancel button
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzzy,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_create material modal,CCCSG-38,10037,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:08 PM,22/Jan/21 11:02 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need access to a modal that will alert me to information
+Text modal
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzzv,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_Doctor Dashboard,CCCSG-37,10036,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:08 PM,22/Jan/21 11:02 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need to have access to a dashboard that will allow me to create, read, update, and delete case submissions
+Dashboard, submissions filter(dropdown), search field, create submission button, submission id(sort results), date submitted(sort results), patient(sort results), classification(sort results), status(sort results), action (submit, edit, delete clickable links), results page navigation 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzzi,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_Create Submission,CCCSG-36,10035,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:07 PM,22/Jan/21 11:02 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR I need a form to collect data, text, and upload media and files associated with my case
+Submission details, Submission ID, Patient Case number,  classification(dropdown), patient gender(dropdown), level of difficulty()dropdown), patient DOB(dropdown), treatment option (dropdown), number of aligner sets (dropdown), wear schedule(dropdown), primary complaint(text area), submission details (dropdown), type of retention (dropdown), aligner material (dropdown), other products used(dropdown), number of revisions(dropdown), total treatment time (dropdown), reason for revision (text area), Clinical conditions (checkboxes), treatment techniques (checkboxes), results achieved (text area), additional comments (text area), upload before photos, upload after photos, progress photo caption (text box), upload progress photos, treatment (URL input and submit), upload radiographs, STL Files (upload browse link), Submit(button), Save as draft(button), Cancel(button)
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzy,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_Onboard,CCCSG-35,10034,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:06 PM,22/Jan/21 11:02 AM,23/Jan/21 9:58 PM,,,0,"
+As a DOCTOR I need access to a modal that will inform me of the various benefits for submitting my cases
+Image with text and button
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzv,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_Case Resources ,CCCSG-34,10033,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:05 PM,23/Jan/21 9:59 PM,23/Jan/21 10:39 PM,,,0,"
+As a DOCTOR I need access to additional resources (photographs and downloads) relevant to individual dental cases
+Resources (Clickable links), Before Treatment (image grid), After Treatment (image grid), Progress - 2 Weeks (Image grid), Treatment Setup (video), Cephalometric Radiographs before and After (Side by side image), Panoramic Radiographs Before and after (Top and bottom full width) 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00008:i,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated_Case Card,CCCSG-33,10032,Story,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:04 PM,23/Jan/21 9:56 PM,23/Jan/21 9:56 PM,,,0,"
+As a DOCTOR, I need to be able to access detailed accounts of dental cases
+Image: Arrow Treatment, Mini Carousel, Video Capability, 
+
+Title, Patient (Gender/Age), # of Aligner Sets, Submission ID, Wear Schedule, Total Treatment Time, Classification, Submitted, Level of Difficulty, Treatment Option, Clinical Conditions (Bullets), Doctor Contact Card (Image, Name (Clickable), Location, Contact, Website (Clickable) Treatment Details Clinical conditions (bullets), treatment (bullets), aligner material, submission materials, comments, # of revisions, Reason for revisions, other products used, type of retention, results achieved
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzy,,CCCSG Sprint 2,,,,,,,,,,,In Progress
+Doctor Authenticated_Doctor Profile,CCCSG-32,10031,Story,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:02 PM,23/Jan/21 9:56 PM,23/Jan/21 9:56 PM,,,0,"
+As a DOCTOR, I need a profile card that contains my information as a medical practitioner
+Left hand side profile image
+Doctor Name
+Doctor Title
+Location (Practice name, address, country with flag icon)
+Contact(Dr. email, phone number, and website)
+Bio(About)
+Education and Training (Bullet points -  dental school, certifications, memberships)
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzv,,CCCSG Sprint 2,,,,,,,,,,,In Progress
+Doctor Authenticated_Case Gallery,CCCSG-31,10030,Story,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 5:00 PM,23/Jan/21 9:55 PM,23/Jan/21 9:55 PM,,,0,"
+As a DOCTOR, I need to be able to view a gallery of cases
+Left hand side full filter + filtered view 
+Classifications 
+Clinical Conditions 
+Level of Difficulty 
+Aligner Wear Schedule 
+Total Treatment Time 
+Gender 
+Country
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzi,,CCCSG Sprint 2,,,,,,,,,,,In Progress
+Patient Authenticated_Patiente Post View Auth/Pub Dev,CCCSG-30,10029,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 4:59 PM,22/Jan/21 11:01 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT I need to be able to view my posts
+Patient Before and After Image, Title of Case, Paragraph Content, CTA to find a Provider
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzy,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Patient Authenticated_Submit Confirmation,CCCSG-29,10028,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 4:59 PM,22/Jan/21 11:01 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT I need confirmation that my Post was successfully submitted
+Text Heading 
+Text SubHeading 
+CTA to Return to Dashboard
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzv,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Patient Authenticated_Post Delete Confirmation ,CCCSG-28,10027,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 4:58 PM,22/Jan/21 11:01 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT I need confirmation that my post was successfully deleted
+Text Heading 
+Text SubHeading 
+CTA to Return to Dashboard
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzi,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Patient Authenticated_Post Delete,CCCSG-27,10026,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,08/Dec/20 4:45 PM,22/Jan/21 11:03 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT I need to be able to delete a post
+Text, Post ID, CTA to Delete, CTA to Cancel
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:r,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Patient Authenticated_Create Post Screen,CCCSG-26,10025,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:44 PM,22/Jan/21 11:00 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT: I need to be able to create a post
+
+
+
+Post ID, Clear Correct Patient Number – What is This, Post Title, Post Message, Before and After Image Upload, Submit, Save as Draft, Cancel 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzv,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Patient Authenticated_My Posts,CCCSG-25,10024,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:43 PM,22/Jan/21 11:00 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT: I need to navigate to view my posts
+Post ID (Arrows), Submitted (Arrows), Title (Arrows), Status (Arrows): Publish, Draft, Pending, Rejected, Action: Edit/Delete 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzi,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Patient Authenticated_Navigation Updates,CCCSG-24,10023,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:43 PM,22/Jan/21 11:00 AM,23/Jan/21 9:54 PM,,,0,"
+As a PATIENT:  I need to see my name appear in navigation when I am logged in
+Navigation Updated with Patient Name 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzy,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Public _ Case Detail,CCCSG-23,10022,Story,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:42 PM,23/Jan/21 9:53 PM,23/Jan/21 9:52 PM,,,0,"
+As a USER: 
+
+I need to see a Case Information page that displays key information
+Image: Arrow Treatment, Mini Carousel, Video Capability, 
+
+Title, Patient (Gender/Age), # of Aligner Sets, Submission ID, Wear Schedule, Total Treatment Time, Classification, Submitted, Level of Difficulty, Treatment Option, Clinical Conditions (Bullets), Doctor Contact Card (Image, Name (Clickable), Location, Contact, Website (Clickable) 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzv,,CCCSG Sprint 2,,,,,,,,,,,In Progress
+Public _Public Doctor Profile,CCCSG-22,10021,Story,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:41 PM,23/Jan/21 9:52 PM,23/Jan/21 9:50 PM,,,0,"
+As a USER: 
+
+I need to see a doctor profile card that displays key information 
+
+
+
+GIVEN I am on the Public_Public Doctor Profile Card THEN I see:
+Left aligned doctor profile image
+Doctor professional name (font treatment)
+Doctor professional title
+Practice Address (Name, Address, City,  State, ZIP, Country with Flag icon), 
+Contact(email address, phone number, website - font treatment with clickable link) 
+Doctor Bio
+Education & Training (Bullet points for School, Professional Memberships, Honors, etc.)
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzi,,CCCSG Sprint 2,,,,,,,,,,,In Progress
+Public_Public Case Gallery / Filtered ,CCCSG-21,10020,Story,In Progress,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:40 PM,23/Jan/21 9:49 PM,23/Jan/21 9:49 PM,,,0,"
+As a USER 
+
+I need to be able to filter the results within the case gallery 
+Left hand side full filter + filtered view 
+Classifications 
+Clinical Conditions 
+Level of Difficulty 
+Aligner Wear Schedule 
+Total Treatment Time 
+Gender 
+Country
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzy,,CCCSG Sprint 2,,,,,,,,,,,In Progress
+Public _Patient Registration Form,CCCSG-20,10019,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:40 PM,22/Jan/21 10:59 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT:
+
+I need the ability to register an account 
+Email Address
+Password 
+Repeat Password 
+Patient Consent Agreement (User Sign Off) 
+Submit CTA 
+Login to my account click thrus 
+Switch to Doctor Registration Click Thru
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzv,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Public_Doctor Registration Form ,CCCSG-19,10018,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:39 PM,22/Jan/21 10:59 AM,23/Jan/21 10:41 PM,,,0,"
+As a DOCTOR:
+
+I need the ability to register an account  
+Email 
+First Name 
+Password 
+Last Name 
+Reset Password 
+Label Drop Down 
+Clear Correct User Number 
+Specialty Drop Down 
+Practice Country Drop Down 
+Practice Country Drop Down 
+Practice State or Province Drop Down 
+Terms and Conditions (User Sign Off) 
+Doctor Consent Agreement (User Sign Off) 
+Submit CTA* 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzi,,CCCSG Sprint 2,,,,,,,,,,,To Do
+ Public _Patient Login,CCCSG-18,10017,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:38 PM,22/Jan/21 10:59 AM,23/Jan/21 10:41 PM,,,0,"
+As a PATIENT:
+
+I need the ability to login to my individualized experience 
+Email 
+Password 
+I Forgot Password Screen 
+Login CTA 
+Create an Account - Clickable Text 
+Switch to Doctor Login – Clickable Text
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzy,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Public_Doctor Login ,CCCSG-17,10016,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:37 PM,22/Jan/21 10:59 AM,23/Jan/21 10:41 PM,,,0,"As a DOCTOR:
+
+I need the ability to login to my individualized experience 
+
+
+Email 
+Password 
+I Forgot Password Screen 
+Login CTA 
+Create an Account - Clickable Text 
+Switch to Patient Login – Clickable Text 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzv,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Public Login (I am Component) ,CCCSG-16,10015,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:32 PM,22/Jan/21 10:59 AM,23/Jan/21 10:41 PM,,,0,"
+As a USER :
+
+I need the ability to access a public login 
+Large Horizontal Boxes 
+Full Color Bleed 
+Text Treatment 
+Clickable 
+
+
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzi,,CCCSG Sprint 2,,,,,,,,,,,To Do
+ Public Stories_Grid Page,CCCSG-15,10014,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:30 PM,22/Jan/21 10:59 AM,23/Jan/21 8:52 PM,,,0,"
+As a USER:
+
+I want access to a full page of Patient Success Story Cards 
+Images displayed in a grid
+“Load more” button at the bottom of page
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:ly,,CCCSG Sprint 2,,,,,,,,,,,To Do
+FE:  Public Home Page_Image Component,CCCSG-14,10013,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:28 PM,14/Jan/21 11:48 AM,12/Jan/21 2:44 PM,14/Jan/21 11:48 AM,,0,"
+As a USER:
+
+I want a component that will display images at different breakpoints / treatments 
+Full bleed photo (no text) 
+V2: Half Bleed, no text (refer to bottom of Public Home) 
+
+V3: 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:v,,CCCSG Sprint 1,,,,,,,,,,,Done
+FE:  Public Home Page_Patient Success Story Cards,CCCSG-13,10012,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:28 PM,12/Jan/21 1:02 PM,12/Jan/21 2:45 PM,12/Jan/21 12:54 PM,,0,"
+As a USER:
+
+I want a component that shows before and after pictures with a body copy of the user’s associated text 
+Two Image grid with Clear Correct logo, white boarder treatment (straight and diagonal), Header copy , Basic paragraph text, curved outline 
+
+
+Reused 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:wxi,,CCCSG Sprint 1,,,,,,,,,,,Done
+FE:  Public Home Page_Image Slider,CCCSG-12,10011,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:26 PM,12/Jan/21 1:18 PM,12/Jan/21 2:44 PM,12/Jan/21 1:18 PM,,0,"
+As a USER:
+
+I want a component that will display a set of before and after images that I can scroll through 
+Two image slider, Arrow functionality down the middle of the two images
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:ti,,CCCSG Sprint 1,,,,,,,,,,,Done
+FE:  Public Home Page_ First Component Image Display,CCCSG-11,10010,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:21 PM,12/Jan/21 9:34 AM,23/Jan/21 10:41 PM,11/Jan/21 6:21 PM,,0,"
+AS a USER:
+
+I WANT a component that will display various images 
+
+
+Image carousel, all images have ClearCorrect logo on border.  
+Center Image slightly enlarged
+Is this a carousel or a stagnant image display? 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:,,CCCSG Sprint 1,,,,,,,,,,,Done
+FE:  Public Home Page_CTA,CCCSG-10,10009,Story,UAT,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Jamie Somers,5fb5979af8b01200695cf6dd,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:17 PM,23/Jan/21 11:17 AM,12/Jan/21 2:43 PM,,,0,"
+As a USER:
+
+I need a button that give me a specific call to action that I can click and navigate to different areas of the site 
+Full Color Treatment (pink/red) 
+White Text 
+Click Thru – “View Case Gallery”
+
+
+Variations: 
+V2: Outline, No Filler Color, Text 
+
+V3: Full Color, Text, Filled in White, Red Text 
+
+V4: Submit CTA Doctor Registration Form 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00012:wi,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,,,,,In Progress
+FE:  Public Home Page_Text Component,CCCSG-9,10008,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:16 PM,12/Jan/21 1:33 PM,23/Jan/21 10:41 PM,12/Jan/21 1:33 PM,,0,"
+AS a USER:
+
+I WANT a component that has full text formatting capabilities for placement across the site. 
+Large title, Paragraph body copy 
+
+
+Variations: 
+V2: Header, Paragraph Copy + Arrows with Clickable Text (font color adjustments)
+
+V3: Header + Title Only 
+
+V4: What is This Text Component – Basic Test (Patient Authenticated)
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0000z:,,CCCSG Sprint 1,,,,,,,,,,,Done
+FE:  Public Home Page,CCCSG-8,10007,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:06 PM,22/Jan/21 10:55 AM,23/Jan/21 4:12 PM,,,0,"
+AS a USER:
+
+I WANT a Page that will guide any non-authenticated user through all key site components 
+
+
+GIVEN I am on the Public Home Page THEN I will see a Global Navigation, Text Component, CTA Button, Carousel, Image Slider, Header/Title Component, Patient Success Story Card, CTA Button, Image Component, Hero Image with Text, Global Footer 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:zzzzzzzzz2,,,,,,,,,,,,,To Do
+FE:  Global Footer,CCCSG-7,10006,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:05 PM,12/Jan/21 2:44 PM,12/Jan/21 2:44 PM,12/Jan/21 2:44 PM,,0,"
+AS a USER:
+
+I WANT a component that will be located at the bottom of the webpage and will contain links to legal documents, site instructions, contact information, privacy policy, Ortho brand websites, etc.”
+
+GIVEN I am on a Page, when I see the Footer, THEN I will see three categories of Information: ClearCorrect, Tools and Services, and Straumann Group Brands. Under Clear Correct I will find: Patients, Doctors and Admin Login. Under Tools and Services, I will find: Register as a Provider, Course Calendar, Support, Jobs and Worldwide Locations. Under Straumann Group Brands, I will find: Straumann Group, Straumann, Neodent and Medentika. 
+
+Share Icons: Facebook, Instagram, Twitter and YouTube 
+
+Copyright Text 
+
+Links to Legal Notice, Privacy Notice, Imprint, Manage, Consent and Preference 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0000v:,,CCCSG Sprint 1,,,,,,,,,,,Done
+FE:  Global Navigation ,CCCSG-6,10005,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:03 PM,22/Jan/21 11:01 AM,23/Jan/21 10:41 PM,22/Jan/21 11:01 AM,,0,"
+AS a USER:
+
+I WANT a component that will display links to various sections of the website
+SO THAT I can accurately navigate between pages
+
+
+GIVEN I am on a Page, when I see the Navigation, then I see a Link to the Case Gallery, Search, Login and Register options 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i0001f:,,CCCSG Sprint 1,CCCSG Sprint 2,,,,,,,,,,Done
+Patient Authenticated User Flow (All Pages),CCCSG-5,10004,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 4:01 PM,22/Jan/21 11:03 AM,23/Jan/21 10:41 PM,,,0,"
+As a USER :
+
+I need a Patient view structured and positioned toward the Patient viewer”
+
+GIVEN I am in the Patient Authenticated view, 
+WHEN I view the page
+THEN I will see Patient Dashboard, Patient Post Create, Patient Post Create Patient #, Patient Post Delete, Patient Post Delete Confirm, Patient Post Delete Submit Confirm, Patient Post View 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzzzzv,,CCCSG Sprint 2,,,,,,,,,,,To Do
+Doctor Authenticated User Flow (All Pages),CCCSG-4,10003,Story,To Do,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 3:59 PM,22/Jan/21 11:03 AM,23/Jan/21 10:41 PM,,,0,"
+As a USER:
+
+I need a Doctor view structured and positioned toward the clinician viewer”
+
+GIVEN I am in the Doctor Authenticated Flow THEN I will see the Doctor Case Gallery, Doctor Case Gallery Filtered, Doctor Profile, Doctor Case Detail, Doctor Case Resources, Doctor Onboard, Doctor Dash Empty, Doctor Dash, Doctor Case Create, Doctor Case Create Material Modal, Doctor Dash Delete, Doctor Delete Confirmation, Doctor Submit Confirmation, Doctor Messages, Doctor Messages Detail, Doctor Saved Cases, Doctor Search Results, Doctor Profile Create
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00009:lzzzzzzzzzzy,,CCCSG Sprint 2,,,,,,,,,,,To Do
+FE: Public User Flow (All Pages),CCCSG-3,10002,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,Medium,Done,,,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 3:29 PM,22/Jan/21 10:36 AM,12/Jan/21 2:42 PM,22/Jan/21 10:36 AM,,0,"
+Public User Flow 
+Auth/Pub
+Dev
+
+As a USER:
+
+I need a Public Facing View that will provide me with key details and access to critical pages. 
+
+GIVEN I am within the Public User Flow, THEN I will see the Public Home Page, Public Stories, Public Login, Public Doctor Login, Public Patient Login, Public Register, Public Doctor Registration, Public Patient Registration, Public Case Gallery, Public Case Gallery/Filtered Gallery, Public Doctor Profile and Public Case Detail Pages 
+",,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00007:,,CCCSG Sprint 1,,,,,,,,,,,Done
+Set Up Local Environment,CCCSG-1,10000,Story,Done,CCCSG,Clear Correct Case Study Gallery,software,rmorrison,5ec2c2e478355c0c09368b2a,,,High,Done,Tyler Hill,5ed92eac3a629c0a9bbc2061,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,Jamila Jones,5ec2c2e15ba5dc0c1c590f8a,07/Dec/20 3:08 PM,11/Jan/21 3:43 PM,12/Jan/21 2:41 PM,11/Jan/21 3:41 PM,,0,As a developer I need my local environment to be set up so I can code.,,Jamila Jones,,5ec2c2e15ba5dc0c1c590f8a,,,,,,,,,,,,,,,,,,{},,,,,,,0|i00007:i,,CCCSG Sprint 1,,,,,,,,04/Jan/21 1:00 PM;5ec2c2e15ba5dc0c1c590f8a;I know that your local is already set up but let’s keep this ticket for tracking purposes. ,,,Done

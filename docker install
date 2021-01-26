@@ -1,0 +1,21 @@
+sudo amazon-linux-extras install docker
+sudo service docker start
+sudo usermod -a -G docker ec2-user
+sudo chkconfig docker on
+sudo yum install -y git
+
+cd /usr/bin sudo rm -r docker-compose
+cd /usr/local/bin sudo rm -r docker-compose
+cd ~/
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+docker-compose --version
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install node

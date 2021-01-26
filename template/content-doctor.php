@@ -25,3 +25,4 @@ $post = $doctor;
     </div>
   </div>
 </div>
+<?php wp_reset_postdata(); ?>

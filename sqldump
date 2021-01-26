@@ -1,5 +1,5 @@
 docker exec -it 60b68a0ab194 mysqldump -uwordpress -pwordpress --databases wordpress --skip-comments > dump.sql
 
-rsync -avL --progress -e "ssh -i clear.pem" . ec2-user@ec2-13-56-11-82.us-west-1.compute.amazonaws.com:~/.
+rsync -avL --progress -e "ssh -i clear.pem" . ec2-user@ec2-18-144-32-142.us-west-1.compute.amazonaws.com:~/.
 
 ssh -i clear.pem ec2-user@ec2-13-56-11-82.us-west-1.compute.amazonaws.com
