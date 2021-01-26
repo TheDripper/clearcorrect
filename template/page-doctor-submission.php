@@ -76,7 +76,7 @@ if (!function_exists('wp_handle_upload')) {
           <div class="doctor-registration bg-white my-12 max-w-6xl mx-auto py-12">
             <h2 class="text-pink text-center mb-16">Submission Details</h2>
             <form enctype="multipart/form-data" action="/update-profile" method="POST">
-              <h3 class="w-full max-w-4xl">Patient Information</h3>
+              <h3 class="w-full max-w-4xl mx-auto mb-2">Patient Information</h3>
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">Patient Case Number</label>
@@ -160,7 +160,7 @@ if (!function_exists('wp_handle_upload')) {
                 <label class=" text-h5-grey uppercase text-xs font-bold">Primary Complaint</label>
                 <textarea name="primary_complaint"></textarea>
               </div>
-              <h3 class="w-full max-w-4xl">Treatment Summary</h3>
+              <h3 class="w-full max-w-4xl mx-auto mt-6 mb-2">Treatment Summary</h3>
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">Submission Materials</label>
@@ -268,7 +268,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('before_occluded_buccal_view_of_anterior', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -281,7 +281,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('before_occluded_buccal_view_of_right_lateral', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -296,7 +296,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('before_occluded_buccal_view_of_left_lateral', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -309,7 +309,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('before_occlusal_view_of_upper', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -324,7 +324,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('before_occlusal_view_of_lower', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -346,7 +346,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('after_occluded_buccal_view_of_anterior', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -359,7 +359,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('after_occluded_buccal_view_of_right_lateral', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -374,7 +374,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('after_occluded_buccal_view_of_left_lateral', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -387,7 +387,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('after_occlusal_view_of_upper', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -402,7 +402,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('after_occlusal_view_of_lower', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -424,7 +424,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('progress_occluded_buccal_view_of_anterior', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -437,7 +437,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('progress_occluded_buccal_view_of_right_lateral', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -452,7 +452,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('progress_occluded_buccal_view_of_left_lateral', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -465,7 +465,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('progress_occlusal_view_of_upper', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -480,7 +480,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('progress_occlusal_view_of_lower', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -502,7 +502,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('before_panoramic_x-ray', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -515,7 +515,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('before_cephalometric_x-ray', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -530,7 +530,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('after_panoramic_x-ray', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">
@@ -543,7 +543,7 @@ if (!function_exists('wp_handle_upload')) {
                     <div class="flex items-center max-w-4xl mx-auto avatar">
                       <?php
                       $photo = get_field('after_cephalometric_x-ray', $case->ID);
-                      if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/no_photo.png';
+                      if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com//wp-content/uploads/2021/01/no_photo.png';
                       ?>
                       <img src="<?php echo $photo; ?>" />
                       <div class="flex flex-col">

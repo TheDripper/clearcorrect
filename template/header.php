@@ -23,8 +23,8 @@
           <input placeholder="Search" type="text" />
         </div>
 				<ul class="flex">
-					<li class="mr-2 border-r pr-2">Login</li>
-					<li>Register</li>
+					<li class="mr-2 border-r pr-2"><a href="/doctor-login">Login</a></li>
+					<li><a href="/doctor-register">Register</a></li>
 				</ul>
 			</div>
 		</nav>

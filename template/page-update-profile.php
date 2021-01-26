@@ -124,7 +124,7 @@ endforeach;
               <div class="flex items-center max-w-4xl mx-auto avatar">
                 <?php
                 $photo = get_the_post_thumbnail_url($doctor->ID);
-                if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/avatar.png';
+                if (empty($photo)) $photo = 'http://ec2-18-144-32-142.us-west-1.compute.amazonaws.com/wp-content/uploads/2021/01/avatar.png';
                 ?>
                 <img src="<?php echo $photo; ?>" />
                 <div class="flex flex-col">
