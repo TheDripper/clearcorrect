@@ -133,7 +133,7 @@
               </div>
             </div>
             <div class="wp-block-column" style="flex:66.666%">
-              <h2 class="text-pink ml-2 mb-4 mt-6">Case Information</h2>
+              <h2 class="text-pink mb-4 mt-6">Case Information</h2>
               <?php $id = get_the_ID(); ?>
               <?php $author = get_the_author_meta('id'); ?>
               <?php $age = get_field("age", "user_$author"); ?>
@@ -203,7 +203,7 @@
               if (in_array('administrator', (array) $user->roles)) :
               ?>
                 <div class="treatment-details">
-                  <h3 class="text-pink ml-2 mt-12">Treatment Details</h3>
+                  <h3 class="text-pink mt-12">Treatment Details</h3>
                   <label class="text-h5-grey uppercase text-xs font-bold">Clinical Conditions</label>
                   <ul class="list">
                     <?php foreach ($conditions as $condition) : ?>

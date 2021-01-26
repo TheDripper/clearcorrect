@@ -53,7 +53,10 @@
     @apply text-sub-head font-head font-bold;
     line-height: 37px;
   }
-  h3, h4, h5, h6 {
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-head;
   }
   h4 {
@@ -299,7 +302,8 @@ header {
     height: 70px;
   }
 }
-form.doctor-registration {
+.doctor-registration,
+.doctor-login {
   border-radius: 4px;
   border: 1px solid #e6eaee;
   input[type="text"],
@@ -310,6 +314,36 @@ form.doctor-registration {
     border-radius: 4px;
     height: 42px;
     padding: 0 20px;
+    @apply mb-8;
+  }
+  .login-submit {
+    width: 100%;
+    text-align: center;
+  }
+  #loginform {
+    @apply flex flex-col items-center justify-center;
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 322px;
+      max-width: 100%;
+    }
+    input[type="checkbox"] {
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      margin-right: 20px;
+    }
+  }
+  .login-remember {
+    label {
+      @apply flex items-center justify-start;
+      width: 322px;
+      max-width: 100%;
+    }
+  }
+  #wp-submit {
+    @apply w-full max-w-xs bg-pink text-white text-sm uppercase mx-auto rounded my-12 py-4 font-bold;
   }
   .checkbox {
     flex-shrink: 0;
@@ -322,7 +356,7 @@ form.doctor-registration {
     border: 1px solid #d0d0d0;
     border-radius: 4px;
     height: 42px;
-    @apply flex items-center;
+    @apply flex items-center mb-8;
     &:after {
       content: url("/wp-content/themes/template/build/images/select-caret.svg");
       position: absolute;
@@ -563,9 +597,17 @@ form.doctor-registration {
   h4 {
     @apply mb-1 mt-6;
   }
+  a {
+    @apply font-medium;
+  }
 }
 .treatment-details {
   label {
     @apply mt-6 block;
+  }
+}
+.doctor-login {
+  label {
+    @apply text-h5-grey uppercase text-xs font-bold block;
   }
 }
