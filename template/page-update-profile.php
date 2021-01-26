@@ -7,20 +7,42 @@ if (!function_exists('wp_handle_upload')) {
 ?>
 
 <?php get_header(); ?>
-<?php // $current_user = get_current_user_id(); ?>
-<?php // echo $current_user; ?>
+<?php // $current_user = get_current_user_id(); 
+?>
+<?php // echo $current_user; 
+?>
 <?php
 $args = array(
   'author'        =>  $current_user->ID,
   'orderby' => 'post_date',
   'order'         =>  'ASC',
   'posts_per_page' => 1,
-  'post_type'=>'doctor'
+  'post_type' => 'doctor'
 );
-$doctor = get_posts($args);
-$photo = media_handle_upload('avatar',$doctor->ID);
-echo set_post_thumbnail($doctor->ID, $photo);
-the_post_thumbnail($doctor->ID);
+$doctor = get_posts($args)[0];
+if ($_FILES['avatar']) {
+  $photo = media_handle_upload('avatar', $doctor->ID);
+}
+?>
+<?php
+wp_update_user(array(
+  'ID' => $current_user->ID,
+  'first_name' => $_POST['first_name'],
+  'last_name' => $_POST['last_name'],
+  'user_email' => $_POST['email']
+));
+unset($_POST['first_name']);
+unset($_POST['last_name']);
+unset($_POST['email']);
+unset($_POST['user_number']);
+unset($_POST['user_email']);
+foreach ($_POST as $key => $value) :
+  update_field($key, $value, $doctor->ID);
+endforeach;
+?>
+
+<?php
+
 
 // $uploadedfile = $_FILES['avatar'];
 
@@ -57,7 +79,7 @@ the_post_thumbnail($doctor->ID);
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">Email</label>
-                  <input type="email" name="email" />
+                  <input type="email" name="email" value="<?php echo $current_user->user_email; ?>" />
                 </div>
                 <div class="wp-block-column flex flex-col"">
                   <label class=" text-h5-grey uppercase text-xs font-bold">ClearCorrect User Number</label>
@@ -67,12 +89,12 @@ the_post_thumbnail($doctor->ID);
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">First Name</label>
-                  <input type="text" name="first_name" />
+                  <input type="text" name="first_name" value="<?php echo $current_user->first_name; ?>" />
 
                 </div>
                 <div class="wp-block-column flex flex-col"">
                   <label class=" text-h5-grey uppercase text-xs font-bold">Last Name</label>
-                  <input type="text" name="last_name" />
+                  <input type="text" name="last_name" value="<?php echo $current_user->last_name; ?>" />
 
                 </div>
               </div>
@@ -81,9 +103,9 @@ the_post_thumbnail($doctor->ID);
                   <label class="text-h5-grey uppercase text-xs font-bold">Degree</label>
                   <div class="select">
                     <select name="degree">
-                      <option>Make Selection</option>
-                      <option>One</option>
-                      <option>Two</option>
+                      <option <?php if (get_field('degree', $doctor->ID) == 'Make Selection') echo 'selected'; ?> value="Make Selection">Make Selection</option>
+                      <option <?php if (get_field('degree', $doctor->ID) == 'One') echo 'selected'; ?>value="One">One</option>
+                      <option <?php if (get_field('degree', $doctor->ID) == 'Two') echo 'selected '; ?>value="Two">Two</option>
                     </select>
                   </div>
                 </div>
@@ -92,14 +114,14 @@ the_post_thumbnail($doctor->ID);
                   <div class="select">
 
                     <select name="specialty">
-                      <option>Make Selection</option>
-                      <option>One</option>
-                      <option>Two</option>
+                      <option <?php if (get_field('specialty', $doctor->ID) == 'Make Selection') echo 'selected '; ?> value="Make Selection">Make Selection</option>
+                      <option <?php if (get_field('specialty', $doctor->ID) == 'One') echo 'selected '; ?>value="One">One</option>
+                      <option <?php if (get_field('specialty', $doctor->ID) == 'Two') echo 'selected  '; ?>value="Two">Two</option>
                     </select>
                   </div>
                 </div>
               </div>
-              <div class="flex items-center max-w-4xl mx-auto">
+              <div class="flex items-center max-w-4xl mx-auto avatar">
                 <?php
                 $photo = get_the_post_thumbnail_url($doctor->ID);
                 if (empty($photo)) $photo = 'http://localhost:9009/wp-content/uploads/2021/01/avatar.png';
@@ -136,43 +158,43 @@ the_post_thumbnail($doctor->ID);
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">Address (Optional)</label>
-                  <input type="text" name="address_1" />
+                  <input type="text" name="address_1" value="<?php the_field('address_1',$doctor->ID); ?>" />
 
                 </div>
                 <div class="wp-block-column flex flex-col"">
                   <label class=" text-h5-grey uppercase text-xs font-bold">Second Address(Optional)</label>
-                  <input type="text" name="address_2" />
+                  <input type="text" name="address_2" value="<?php the_field('address_2',$doctor->ID); ?>"/>
                 </div>
               </div>
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">City (Optional)</label>
-                  <input type="text" name="city" />
+                  <input type="text" name="city" value="<?php the_field('city',$doctor->ID); ?>"/>
 
                 </div>
                 <div class="wp-block-column flex flex-col"">
                   <label class=" text-h5-grey uppercase text-xs font-bold">Zip/Postal Code (Optional)</label>
-                  <input type="text" name="zip" />
+                  <input type="text" name="zip" value="<?php the_field('zip',$doctor->ID); ?>"/>
                 </div>
               </div>
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">Practice Email (Optional)</label>
-                  <input type="email" name="user_email" />
+                  <input type="email" name="practice_email" value="<?php the_field('practice_email',$doctor->ID); ?>"/>
 
                 </div>
                 <div class="wp-block-column flex flex-col"">
                   <label class=" text-h5-grey uppercase text-xs font-bold">Phone (optional)</label>
-                  <input type="text" name="phone" />
+                  <input type="text" name="phone" value="<?php the_field('phone',$doctor->ID); ?>"/>
                 </div>
               </div>
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">Website (Optional)</label>
-                  <input type="email" name="user_email" />
+                  <input type="text" name="website" value="<?php the_field('website',$doctor->ID); ?>"/>
 
                 </div>
-                <div class="wp-block-column flex flex-col"">
+                <div class="wp-block-column flex flex-col">
                 </div>
               </div>
 
@@ -187,36 +209,11 @@ the_post_thumbnail($doctor->ID);
           </div>
           </div>
           <div class=" max-w-4xl w-full mx-auto flex flex-col">
-                  <div class="flex items-center mb-4">
-                    <div class="check-style-wrap">
 
-                      <input class="checkbox" type="checkbox" name="terms-conditions" />
-                    </div>
+            <input type="submit" class="w-full max-w-xs bg-pink text-white text-sm uppercase mx-auto rounded my-12 py-4 font-bold" value="SUBMIT" />
+          </div>
 
-                    <div class="flex">
-                      <div class="checkbox"></div>
-                      <div class="flex flex-col">
-                        <p>I confirm that I have read and agree to the ClearCorrect Case Gallery <a class="block" href="/terms-conditions">Terms & Conditions</a></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex items-center">
-                    <div class="check-style-wrap">
-                      <input class="checkbox" type="checkbox" name="terms-conditions" />
-                    </div>
-                    <div class="flex">
-                      <div class="checkbox"></div>
-                      <div class="flex flex-col">
-                        <p>I confirm that I have read and agree to the ClearCorrect Case Gallery <a class="block" href="/doctor-consent-agreement">Doctor Consent Agreement</a></p>
-                      </div>
-                    </div>
-                  </div>
-                  <input type="submit" class="w-full max-w-xs bg-pink text-white text-sm uppercase mx-auto rounded my-12 py-4 font-bold" value="SUBMIT" />
-                  <a class="text-center mb-4" href="/login">I already have an account.</a>
-                  <a class="text-center href=" /patient-register">I already have an account.</a>
-                </div>
-
-            </form>
+          </form>
           </div>
 
 
