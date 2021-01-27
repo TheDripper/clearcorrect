@@ -1,6 +1,7 @@
 import Masonry from "masonry-layout";
 import visible from "../util/visible";
 import $ from "jquery";
+import "datatables";
 import "jquery-ui/themes/base/core.css";
 import "jquery-ui/themes/base/draggable.css";
 import "jquery-ui/ui/core";
@@ -18,6 +19,11 @@ export default {
   init() {
     // JavaScript to be fired on all pages
     console.log("common");
+    if($('.datatable').length) {
+      $('.datatable').each(function(){
+        $(this).DataTable();
+      });
+    }
     if ($(".case-images").length) {
       $(".case-image").on("click", function () {
         var src = $(this).find("img").attr("src");

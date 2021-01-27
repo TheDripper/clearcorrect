@@ -25,12 +25,15 @@ if ($_FILES['avatar']) {
 }
 ?>
 <?php
-wp_update_user(array(
-  'ID' => $current_user->ID,
-  'first_name' => $_POST['first_name'],
-  'last_name' => $_POST['last_name'],
-  'user_email' => $_POST['email']
-));
+if ($_POST['first_name'] || $_POST['last_name'] || $_POST['user_email']) {
+  wp_update_user(array(
+    'ID' => $current_user->ID,
+    'first_name' => $_POST['first_name'],
+    'last_name' => $_POST['last_name'],
+    'user_email' => $_POST['user_email']
+  ));
+}
+$updated_user = get_user_by('ID', $current_user->ID);
 unset($_POST['first_name']);
 unset($_POST['last_name']);
 unset($_POST['email']);
@@ -79,7 +82,7 @@ endforeach;
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">Email</label>
-                  <input type="email" name="email" value="<?php echo $current_user->user_email; ?>" />
+                  <input type="email" name="user_email" value="<?php echo $updated_user->user_email; ?>" />
                 </div>
                 <div class="wp-block-column flex flex-col"">
                   <label class=" text-h5-grey uppercase text-xs font-bold">ClearCorrect User Number</label>
@@ -137,9 +140,9 @@ endforeach;
                   <label class="text-h5-grey uppercase text-xs font-bold">Practice Country</label>
                   <div class="select">
                     <select name="practice-country">
-                      <option>Make Selection</option>
-                      <option>One</option>
-                      <option>Two</option>
+                      <option <?php if (get_field('practice-country', $doctor->ID) == 'Make Selection') echo 'selected '; ?> value="Make Selection">Make Selection</option>
+                      <option <?php if (get_field('practice-country', $doctor->ID) == 'One') echo 'selected '; ?>value="One">One</option>
+                      <option <?php if (get_field('practice-country', $doctor->ID) == 'Two') echo 'selected '; ?>value="Two">Two</option>
                     </select>
                   </div>
                 </div>
@@ -147,10 +150,10 @@ endforeach;
                   <label class=" text-h5-grey uppercase text-xs font-bold">Practice Province/State</label>
                   <div class="select">
 
-                    <select name="practice-state">
-                      <option>Make Selection</option>
-                      <option>One</option>
-                      <option>Two</option>
+                  <select name="practice-state">
+                      <option <?php if (get_field('practice-state', $doctor->ID) == 'Make Selection') echo 'selected '; ?> value="Make Selection">Make Selection</option>
+                      <option <?php if (get_field('practice-state', $doctor->ID) == 'One') echo 'selected '; ?>value="One">One</option>
+                      <option <?php if (get_field('practice-state', $doctor->ID) == 'Two') echo 'selected '; ?>value="Two">Two</option>
                     </select>
                   </div>
                 </div>
@@ -158,40 +161,40 @@ endforeach;
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">Address (Optional)</label>
-                  <input type="text" name="address_1" value="<?php the_field('address_1',$doctor->ID); ?>" />
+                  <input type="text" name="address_1" value="<?php the_field('address_1', $doctor->ID); ?>" />
 
                 </div>
                 <div class="wp-block-column flex flex-col"">
                   <label class=" text-h5-grey uppercase text-xs font-bold">Second Address(Optional)</label>
-                  <input type="text" name="address_2" value="<?php the_field('address_2',$doctor->ID); ?>"/>
+                  <input type="text" name="address_2" value="<?php the_field('address_2', $doctor->ID); ?>" />
                 </div>
               </div>
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">City (Optional)</label>
-                  <input type="text" name="city" value="<?php the_field('city',$doctor->ID); ?>"/>
+                  <input type="text" name="city" value="<?php the_field('city', $doctor->ID); ?>" />
 
                 </div>
                 <div class="wp-block-column flex flex-col"">
                   <label class=" text-h5-grey uppercase text-xs font-bold">Zip/Postal Code (Optional)</label>
-                  <input type="text" name="zip" value="<?php the_field('zip',$doctor->ID); ?>"/>
+                  <input type="text" name="zip" value="<?php the_field('zip', $doctor->ID); ?>" />
                 </div>
               </div>
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">Practice Email (Optional)</label>
-                  <input type="email" name="practice_email" value="<?php the_field('practice_email',$doctor->ID); ?>"/>
+                  <input type="email" name="practice_email" value="<?php the_field('practice_email', $doctor->ID); ?>" />
 
                 </div>
                 <div class="wp-block-column flex flex-col"">
                   <label class=" text-h5-grey uppercase text-xs font-bold">Phone (optional)</label>
-                  <input type="text" name="phone" value="<?php the_field('phone',$doctor->ID); ?>"/>
+                  <input type="text" name="phone" value="<?php the_field('phone', $doctor->ID); ?>" />
                 </div>
               </div>
               <div class="wp-block-columns max-w-4xl mx-auto">
                 <div class="wp-block-column flex flex-col">
                   <label class="text-h5-grey uppercase text-xs font-bold">Website (Optional)</label>
-                  <input type="text" name="website" value="<?php the_field('website',$doctor->ID); ?>"/>
+                  <input type="text" name="website" value="<?php the_field('website', $doctor->ID); ?>" />
 
                 </div>
                 <div class="wp-block-column flex flex-col">
