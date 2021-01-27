@@ -308,7 +308,8 @@ header {
   height: 30px;
 }
 .doctor-registration,
-.doctor-login {
+.doctor-login,
+.submission-edit {
   textarea {
     box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.25);
     border: 1px solid #d0d0d0;
@@ -639,21 +640,21 @@ input[type="search"] {
   padding: 0 20px;
   @apply mb-8;
   position: absolute;
-  left: 0; 
+  left: 0;
   top: 0;
 }
-.dataTables_filter {  
+.dataTables_filter {
   @apply relative mb-6;
   height: 42px;
-  &:after {
-    content: url("/wp-content/themes/template/build/images/Search.svg");
-    position: absolute;
-    right: -22px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 17px;
-    height: 17px;
-  }
+  // &:after {
+  //   content: url("/wp-content/themes/template/build/images/Search.svg");
+  //   position: absolute;
+  //   right: -22px;
+  //   top: 50%;
+  //   transform: translateY(-50%);
+  //   width: 17px;
+  //   height: 17px;
+  // }
 }
 .paginate_button {
   width: 24px;
@@ -663,8 +664,8 @@ input[type="search"] {
   align-items: center;
   justify-content: center;
   font-size: 12px;
-  border: 1px solid #686B6B;
-  color: #686B6B;
+  border: 1px solid #686b6b;
+  color: #686b6b;
   @apply mr-2;
   cursor: pointer;
   &.previous,
@@ -684,4 +685,14 @@ input[type="search"] {
 }
 .dataTables_length {
   display: none;
+}
+.button {
+  @apply bg-pink font-body-bold flex items-center justify-center text-white;
+  border-radius: 5px;
+  font-size: 15px;
+  min-width: 245px;
+  &.invert {
+    @apply text-pink bg-white;
+    border: 2px solid $pink;
+  }
 }

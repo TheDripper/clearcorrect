@@ -8,4 +8,8 @@ export default () => {
       e.preventDefault();
       $.featherlight($('.modal'));
   });
+  $('.delete').on('click', function(e){
+    e.preventDefault();
+    $.featherlight($(this).next());
+});
 };

@@ -39,7 +39,17 @@ $cases = get_posts($args);
                   <td class="p-4 text-center"><?php echo $patient; ?></td>
                   <td class="p-4 text-center"><?php echo wp_get_post_terms($id, 'classification')[0]->name; ?></td>
                   <td class="p-4 text-center"><?php echo $case->post_status; ?></td>
-                  <td class="p-4 text-center"><a class="text-sm mx-2" href="/submission-edit">EDIT</a>|<a class="text-sm mx-2" href="/submission-delete">DELETE</td>
+                  <td class="p-4 text-center"><a class="text-sm mx-2" href="/submission-edit?id=<?php echo $id; ?>">EDIT</a>|<a class="text-sm mx-2 delete" href="/submission-delete?id=<?php echo $id; ?>">DELETE</a>
+                    <div class="modal p-8">
+                      <div class="flex flex-col justify-center text-center">
+                        <p class="text-xl">Are you sure you want to delete the following submission?</p>
+                        <h1 class="text-pink my-12"><?php echo $case->ID; ?></h1>
+                        <p class="w-full max-w-lg mx-auto mb-6">Once deleted there is no way to recover this submission from our system. If it was previously published to the ClearCorrect case gallery it will be removed within 24 hours. </p>
+                        <a class="button py-2 w-full max-w-md mx-auto mb-2" href="/submission-delete?id=<?php echo $id; ?>">Delete Submission</a>
+                        <a class="button py-2 w-full max-w-md mx-auto invert" href="/submission-delete">Cancel</a>
+                      </div>
+                    </div>
+                  </td>
                 </tr>
               <?php endforeach; ?>
             </tbody>
