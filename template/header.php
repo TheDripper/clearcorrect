@@ -16,16 +16,25 @@
 				<a href="/"><img class="logo mt-6 mb-4" src="<?php echo get_template_directory_uri() . '/build/images/logo.png'; ?>" /></a>
 			</div>
 		</div>
-		<nav class="flex justify-between items-center py-2 m-0 w-full max-w-6xl relative z-10 w-full max-w-6xl mx-auto">
+		<nav class="flex justify-between items-start py-2 m-0 w-full max-w-6xl relative z-10 w-full max-w-6xl mx-auto">
 			<a href="/stories">Case Gallery</a>
-      <div class="w-1/3 flex justify-between items-center">
+      <div class="w-1/3 flex justify-between items-start">
         <div class="search-wrap relative">
           <input placeholder="Search" type="text" />
         </div>
+        <?php if(is_user_logged_in()): ?>
+        <ul class="logged-in-dropdown">
+          <li><a href="/doctor-dashboard"><?php echo wp_get_current_user()->user_login; ?></a></li>
+          <li><a href="/doctor-dashboard">Dashboard</a></li>
+          <li><a href="/doctor-messages">Messages</a></li>
+          <li><a href="/logout">Sign Out</a></li>
+        </ul>
+        <?php else: ?>
 				<ul class="flex">
-					<li class="mr-2 border-r pr-2"><a href="/doctor-login">Login</a></li>
-					<li><a href="/doctor-register">Register</a></li>
+					<li class="mr-2 border-r pr-2"><a href="/login">Login</a></li>
+					<li><a href="/register">Register</a></li>
 				</ul>
+        <?php endif; ?>
 			</div>
 		</nav>
 	</header>

@@ -98,7 +98,7 @@
                 </div>
                 <input type="submit" class="w-full max-w-xs bg-pink text-white text-sm uppercase mx-auto rounded my-12 py-4 font-bold" value="SUBMIT" />
                 <a class="text-center mb-4" href="/login">I already have an account.</a>
-                <a class="text-center" href="/patient-register">I already have an account.</a>
+                <a class="text-center" href="/patient-register">Switch to patient login.</a>
               </div>
 
             </form>

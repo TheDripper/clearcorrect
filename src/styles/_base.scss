@@ -335,11 +335,14 @@ header {
     width: 100%;
     text-align: center;
   }
-  #loginform {
+  #loginform,
+  #patient-register,
+  #patient-submission {
     @apply flex flex-col items-center justify-center;
     input[type="text"],
     input[type="email"],
-    input[type="password"] {
+    input[type="password"],
+    label {
       width: 322px;
       max-width: 100%;
     }
@@ -694,5 +697,56 @@ input[type="search"] {
   &.invert {
     @apply text-pink bg-white;
     border: 2px solid $pink;
+  }
+}
+.login-fork {
+  @apply flex;
+  a {
+    width: 50%;
+    height: 542px;
+    @apply flex justify-center items-center;
+  }
+}
+.message{
+  label {
+    width: 51px;
+    height: 27px;
+    margin-right: 1rem;
+    display: inline-block;
+    text-align: right;
+    padding-top: 2px;
+    @apply flex items-start justify-end;
+  }
+  p {
+    @apply flex items-start justify-start;
+  }
+}
+.logged-in-dropdown {
+  @apply rounded bg-white;
+  height: 40px;
+  max-height: 40px;
+  overflow: hidden;
+  a {
+    pointer-events: none;
+    text-decoration: none;
+  }
+  &.open {
+    @apply border border-border-grey;
+    height: auto;
+    max-height: 200px;
+    a {
+      pointer-events: auto;
+    }
+  }
+  li {
+    height: 40px;
+    @apply flex items-center;
+    &:hover {
+      background: #FFBCC8;
+    }
+    a {
+      @apply p-4;
+      text-decoration: none;
+    }
   }
 }

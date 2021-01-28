@@ -19,10 +19,19 @@ export default {
   init() {
     // JavaScript to be fired on all pages
     console.log("common");
+    if($('.logged-in-dropdown').length) {
+      $('.logged-in-dropdown').on('click',function(){
+        $(this).toggleClass('open');
+      });
+    }
     if($('.datatable').length) {
       $('.datatable').each(function(){
         $(this).DataTable();
       });
+      $('#case-fitler').on('change',function(){
+        var selectedValue = $(this).val();
+        oTable.fnFilter("^"+selectedValue+"$", 0, true); //Exact value, column, reg
+    });
     }
     if ($(".case-images").length) {
       $(".case-image").on("click", function () {

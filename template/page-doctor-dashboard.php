@@ -17,7 +17,10 @@ $cases = get_posts($args);
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div class="bg-white border border-border-grey max-w-6xl mx-auto p-6">
-          <h2 class="text-pink mb-6">Dashboard</h2>
+          <div class="flex justify-between w-full items-center">
+            <h2 class="text-pink mb-6">Dashboard</h2>
+            <a class="button p-2 invert min-w-0" href="/doctor-submission">CREATE SUBMISSION</a>
+          </div>
           <table class="datatable w-full">
             <thead>
               <tr>
@@ -40,7 +43,7 @@ $cases = get_posts($args);
                   <td class="p-4 text-center"><?php echo wp_get_post_terms($id, 'classification')[0]->name; ?></td>
                   <td class="p-4 text-center"><?php echo $case->post_status; ?></td>
                   <td class="p-4 text-center"><a class="text-sm mx-2" href="/submission-edit?id=<?php echo $id; ?>">EDIT</a>|<a class="text-sm mx-2 delete" href="/submission-delete?id=<?php echo $id; ?>">DELETE</a>
-                    <div class="modal p-8">
+                    <div class="modal message p-8">
                       <div class="flex flex-col justify-center text-center">
                         <p class="text-xl">Are you sure you want to delete the following submission?</p>
                         <h1 class="text-pink my-12"><?php echo $case->ID; ?></h1>

@@ -8,9 +8,9 @@
         <!-- article -->
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
           <div class="doctor-login bg-white my-12 max-w-6xl mx-auto py-12">
-            <h2 class="text-pink text-center mb-16">Doctor Login</h2>
+            <h2 class="text-pink text-center mb-16">Patient Login</h2>
             <?php wp_login_form(array(
-              'redirect'=>'http://localhost:4000/doctor-dashboard'
+              'redirect'=>'http://localhost:4000/patient-dashboard'
             )); ?>
           </div>
         </article>

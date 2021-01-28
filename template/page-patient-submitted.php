@@ -6,27 +6,17 @@ if (!function_exists('wp_handle_upload')) {
 }
 ?>
 <?php get_header(); ?>
+<?php $current_user = wp_get_current_user(); ?>
 <?php
 $submitted = wp_insert_post(array(
-  'post_type' => 'case',
+  'post_type' => 'post',
   'post_author' => $current_user->ID,
   'post_status' => 'draft',
-  'post_title' => $_POST['patient_case_number']
+  'post_title' => $_POST['post_title']
 ));
-if (!empty($_FILES)) {
-  foreach ($_FILES as $field => $file) {
-    if ($file["name"]) {
-      $photo = media_handle_upload($field, $submitted);
-      update_field($field, $photo, $submitted);
-    }
-  }
-}
-foreach ($_POST as $key => $value) {
-  if (strpos($key, 'term_') === 0) {
-    wp_set_object_terms($submitted, $value, substr($key, 5));
-  } else {
-    update_field($key, $value, $submitted);
-  }
+if ($_FILES['avatar']) {
+  $photo = media_handle_upload('avatar', $submitted);
+  set_post_thumbnail($submitted,$photo);
 }
 ?>
 <main role="main" aria-label="Content" class="bg-back-grey pt-8">
@@ -37,7 +27,7 @@ foreach ($_POST as $key => $value) {
         <p class="text-3xl text-center mb-6">The following submission has been sent for approval:</p>
         <h1 class="text-pink text-center mb-6"><?php echo $submitted; ?></h1>
         <div class="max-w-xl mx-auto text-center mb-6"><?php the_content(); ?></div>
-        <a href="/doctor-dashboard" class="button py-2 max-w-xs mx-auto invert">RETURN TO DASHBOARD</a>
+        <a href="/patient-dashboard" class="button py-2 max-w-xs mx-auto invert">RETURN TO DASHBOARD</a>
       </div>
     </article>
   </section>
