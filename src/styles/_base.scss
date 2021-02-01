@@ -263,6 +263,36 @@
   opacity: 0;
 }
 .card {
+  transition: all 0.2s ease;
+  .no-modal {
+    height: 265px;
+    width: 265px;
+    overflow: hidden;
+    @apply flex items-center justify-center relative;
+    border: 10px solid #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 2px 5px 11px 0 rgba(0, 0, 0, 0.33);
+    }
+    &:after {
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      right: auto;
+      transform: translate(-50%);
+      content: url('/wp-content/themes/template/build/images/logo-frame.png');
+      background: white;
+      @apply px-4 py-2 flex rounded;
+    }
+    img {
+      height: 100%;
+      max-width: none;
+    }
+  }
   &:nth-child(even) {
     transform: translateY(-25%);
   }
@@ -351,6 +381,15 @@ header {
       width: 30px;
       height: 30px;
       margin-right: 20px;
+    }
+  }
+  #patient-edit {
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    label {
+      width: 100%;
+      max-width: 100%;
     }
   }
   .login-remember {
@@ -707,7 +746,7 @@ input[type="search"] {
     @apply flex justify-center items-center;
   }
 }
-.message{
+.message {
   label {
     width: 51px;
     height: 27px;
@@ -742,11 +781,14 @@ input[type="search"] {
     height: 40px;
     @apply flex items-center;
     &:hover {
-      background: #FFBCC8;
+      background: #ffbcc8;
     }
     a {
       @apply p-4;
       text-decoration: none;
     }
   }
+}
+.new-feather {
+  opacity: 0;
 }

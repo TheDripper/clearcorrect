@@ -5,6 +5,7 @@ import './style.scss';
 import Router from './util/Router';
 import common from './routes/common';
 import home from './routes/home';
+import stories from './routes/stories';
 import featherlight from './util/featherlight';
 import visible from './util/visible';
 
@@ -22,6 +23,7 @@ const routes = new Router({
   common,
   /** Home page */
   home,
+  stories
   /** About Us page, note the change from about-us to aboutUs. */
 });
 

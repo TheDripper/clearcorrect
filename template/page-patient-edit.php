@@ -14,15 +14,12 @@ if (!function_exists('wp_handle_upload')) {
   <section>
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <?php if ($_POST['technical_condition']) {
-          wp_set_object_terms(get_the_ID(), $_POST['techinical_condition'], 'technical_condition');
-        } ?>
         <!-- article -->
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
           <div class="doctor-registration bg-white my-12 max-w-6xl mx-auto py-12">
-            <h2 class="text-pink text-center mb-16">Create Post</h2>
+            <h2 class="text-pink text-center mb-16">Edit Post</h2>
             <div class="max-w-xl mx-auto w-full flex justify-center">
-              <form id="patient-submission" class="flex flex-col items-start" enctype="multipart/form-data" action="/patient-submitted" method="POST">
+            <form id="patient-edit" class="flex flex-col items-start" enctype="multipart/form-data" action="/patient-saved?id=<?php echo $edit->ID; ?>" method="POST">
                 <label class="text-h5-grey uppercase text-xs font-bold flex justify-between mb-2">ClearCorrect Patient #
                   <a href="#" class="modal-link text-xs font-body">What is this?</a></label>
                 <div class="modal">
@@ -30,16 +27,19 @@ if (!function_exists('wp_handle_upload')) {
                     <p>Your ClearCorrect patient number can be found on the side of your ClearCorrect aligner box, or on the aligner itself.</p>
                   </div>
                 </div>
-                <input type="text" name="patient_number" value="<?php echo get_field('patient_number',$id); ?>" />
+                <input type="text" name="patient_number" value="<?php echo get_field('patient_number',$edit->ID); ?>" />
                 <label class="text-h5-grey uppercase text-xs font-bold flex justify-between mb-2">Post Title
                 </label>
 
-                <input type="text" name="post_title" value="<?php echo $post->post_title; ?>"/>
+                <input type="text" name="post_title" value="<?php echo $edit->post_title; ?>"/>
                 <label class="text-h5-grey uppercase text-xs font-bold flex justify-between mb-2">Post Message</label>
-                <textarea name="post_message"></textarea>
+                <textarea name="post_message"><?php the_field('post_message',$edit->ID); ?></textarea>
                 <div class="flex items-center max-w-4xl mx-auto avatar mt-8">
                   <?php
-                    $photo = get_template_directory_uri() . '/build/images/before-after.jpg';
+                    $photo = wp_get_attachment_image_src(get_post_thumbnail_id($edit->ID),'thumbnail')[0]; 
+                    if(empty($photo)) {
+                      $photo = get_template_directory_uri() . '/build/images/before-after.jpg';
+                    }
                   ?>
                   <img src="<?php echo $photo; ?>" />
                   <div class="flex flex-col">

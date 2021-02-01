@@ -14,7 +14,11 @@
           <p class="text-3xl text-center mb-6">Your submission has been deleted.</p>
           <p class="max-w-xl mx-auto text-center mb-6">If the submission is currently on the ClearCorrect website 
 it will be removed within 2 business days.</p>
+          <?php if(current_user_can('author')): ?>
           <a href="/doctor-dashboard" class="button py-2 max-w-xs mx-auto invert">RETURN TO DASHBOARD</a>
+          <?php else: ?>
+            <a href="/patient-dashboard" class="button py-2 max-w-xs mx-auto invert">RETURN TO DASHBOARD</a>
+            <?php endif; ?>
         </div>
         </article>
       <?php endwhile; ?>
