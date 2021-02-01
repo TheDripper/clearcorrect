@@ -19,19 +19,61 @@ export default {
   init() {
     // JavaScript to be fired on all pages
     console.log("common");
-    if($('.logged-in-dropdown').length) {
-      $('.logged-in-dropdown').on('click',function(){
-        $(this).toggleClass('open');
+    if ($("#saves").length) {
+      $("#saves .save").on("click", function () {
+        var id = Number($(this).parent().attr("data-id"));
+        var $saves = $(this).parent();
+        $.ajax({
+          url: wp.ajax.settings.url,
+          type: "POST",
+          data: {
+            action: "add_save",
+            id:id
+          },
+          success: function (res) {
+            $saves.find('p').text('SAVES: '+res);
+            $saves.find('img').first().css('opacity','1');
+            $saves.find('img').first().css('pointerEvents','auto');
+            $saves.find('img').last().css('opacity','0');
+            $saves.find('img').last().css('pointerEvents','none');
+          },
+        });
+      });
+      $("#saves .drop-save").on("click", function () {
+        var id = Number($(this).parent().attr("data-id"));
+        var $saves = $(this).parent();
+        $.ajax({
+          url: wp.ajax.settings.url,
+          type: "POST",
+          data: {
+            action: "drop_save",
+            id:id
+          },
+          success: function (res) {
+            console.log('drop');
+            console.log(res);
+            $saves.find('p').text('SAVES: '+res);
+            $saves.find('img').first().css('opacity','0');
+            $saves.find('img').first().css('pointerEvents','none');
+            $saves.find('img').last().css('opacity','1');
+            $saves.find('img').last().css('pointerEvents','auto');
+          },
+        });
       });
     }
-    if($('.datatable').length) {
-      $('.datatable').each(function(){
+    if ($(".logged-in-dropdown").length) {
+      $(".logged-in-dropdown").on("click", function () {
+        $(this).toggleClass("open");
+      });
+    }
+    if ($(".datatable").length) {
+      $(".datatable").each(function () {
         $(this).DataTable();
       });
-      $('#case-fitler').on('change',function(){
+      $("#case-fitler").on("change", function () {
         var selectedValue = $(this).val();
-        oTable.fnFilter("^"+selectedValue+"$", 0, true); //Exact value, column, reg
-    });
+        oTable.fnFilter("^" + selectedValue + "$", 0, true); //Exact value, column, reg
+      });
     }
     if ($(".case-images").length) {
       $(".case-image").on("click", function () {

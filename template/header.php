@@ -16,9 +16,9 @@
 				<a href="/"><img class="logo mt-6 mb-4" src="<?php echo get_template_directory_uri() . '/build/images/logo.png'; ?>" /></a>
 			</div>
 		</div>
-		<nav class="flex justify-between items-start py-2 m-0 w-full max-w-6xl relative z-10 w-full max-w-6xl mx-auto">
+		<nav class="flex justify-between items-center py-2 m-0 w-full max-w-6xl relative z-10 w-full max-w-6xl mx-auto">
 			<a href="/stories">Case Gallery</a>
-      <div class="w-1/3 flex justify-between items-start">
+      <div class="w-1/3 flex justify-between items-start self-start">
         <div class="search-wrap relative">
           <input placeholder="Search" type="text" />
         </div>

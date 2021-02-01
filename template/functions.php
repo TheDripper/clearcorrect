@@ -697,13 +697,13 @@ function my_ajax_handler()
     'post_type' => 'post',
     'posts_per_page' => 10,
     'post_status' => 'any',
-    'offset'=>$_POST['offset']
+    'offset' => $_POST['offset']
   ));
   foreach ($new_posts as $new_post) : ?>
-    <?php 
-      global $post;
-      $post = $new_post;
-      setup_postdata($post);
+    <?php
+    global $post;
+    $post = $new_post;
+    setup_postdata($post);
     ?>
     <div class="card new-feather w-1/4 px-8 mb-6">
       <div class="no-modal">
@@ -720,5 +720,50 @@ function my_ajax_handler()
     </div>
     <?php wp_reset_postdata(); ?>
 <?php endforeach;
-wp_die(); 
+  wp_die();
+}
+
+add_action('wp_ajax_nopriv_add_save', 'add_save');
+add_action('wp_ajax_add_save', 'add_save');
+
+function add_save()
+{
+  $user = get_current_user_ID();
+  $save_id = (int) $_POST["id"];
+  $saves = intval(get_field('saves', $save_id));
+  $saved = json_decode(get_field('saved', 'user_'.$user));
+  if(empty($saved)) {
+    $saved = [];
+  }
+  if (!in_array($save_id, $saved)) {
+    $saves++; 
+    update_field('saves', $saves, $save_id);
+    the_field('saves', $save_id);
+    $saved[] = $save_id;
+    update_field('saved', json_encode($saved), 'user_'.$user);
+  } else {
+    the_field('saves', $save_id);
+  }
+  wp_die();
+}
+
+add_action('wp_ajax_nopriv_drop_save', 'drop_save');
+add_action('wp_ajax_drop_save', 'drop_save');
+function drop_save()
+{
+  $user = get_current_user_ID();
+  $save_id = (int) $_POST["id"];
+  $saves = intval(get_field('saves', $save_id));
+  $saved = json_decode(get_field('saved', 'user_'.$user));
+  if (in_array($save_id, $saved)) {
+    $saves--; 
+    update_field('saves', $saves, $save_id);
+    the_field('saves', $save_id);
+    $is_saved = array_search($save_id,$saved);
+    unset($saved[$is_saved]);
+    update_field('saved', json_encode($saved), 'user_'.$user);
+  } else {
+    the_field('saves', $save_id);
+  }
+  wp_die();
 }

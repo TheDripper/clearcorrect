@@ -792,3 +792,15 @@ input[type="search"] {
 .new-feather {
   opacity: 0;
 }
+#saves {
+  img:last-child {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+  }
+  .save {
+    @apply relative;
+    z-index: 2;
+  }
+}
