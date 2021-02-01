@@ -533,14 +533,15 @@ header {
   }
 }
 .search-wrap {
-  &:after {
-    content: url("/wp-content/themes/template/build/images/Search.svg");
+  img {
     position: absolute;
     right: -22px;
     top: 50%;
     transform: translateY(-50%);
     width: 17px;
     height: 17px;
+    cursor: pointer;
+    z-index: 5;
   }
 }
 .logo-frame {

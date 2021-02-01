@@ -19,6 +19,11 @@ export default {
   init() {
     // JavaScript to be fired on all pages
     console.log("common");
+    $('.search-wrap img').on('click',function(){
+      var search = $('#search').val();
+      console.log(search);
+      window.location.href = "/search?_search_bar="+search
+    });
     if ($(".saves").length) {
       $(".saves .save").on("click", function () {
         var id = Number($(this).parent().attr("data-id"));
