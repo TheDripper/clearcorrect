@@ -731,16 +731,17 @@ function add_save()
   $user = get_current_user_ID();
   $save_id = (int) $_POST["id"];
   $saves = intval(get_field('saves', $save_id));
-  $saved = json_decode(get_field('saved', 'user_'.$user));
-  if(empty($saved)) {
+  $saved = json_decode(get_field('saved', 'user_' . $user));
+  $saved = json_decode(json_encode($saved), true);
+  if (empty($saved)) {
     $saved = [];
   }
   if (!in_array($save_id, $saved)) {
-    $saves++; 
+    $saves++;
     update_field('saves', $saves, $save_id);
     the_field('saves', $save_id);
     $saved[] = $save_id;
-    update_field('saved', json_encode($saved), 'user_'.$user);
+    update_field('saved', json_encode($saved), 'user_' . $user);
   } else {
     the_field('saves', $save_id);
   }
@@ -754,14 +755,15 @@ function drop_save()
   $user = get_current_user_ID();
   $save_id = (int) $_POST["id"];
   $saves = intval(get_field('saves', $save_id));
-  $saved = json_decode(get_field('saved', 'user_'.$user));
+  $saved = json_decode(get_field('saved', 'user_' . $user));
+  $saved = json_decode(json_encode($saved), true);
   if (in_array($save_id, $saved)) {
-    $saves--; 
+    $saves--;
     update_field('saves', $saves, $save_id);
     the_field('saves', $save_id);
-    $is_saved = array_search($save_id,$saved);
+    $is_saved = array_search($save_id, $saved);
     unset($saved[$is_saved]);
-    update_field('saved', json_encode($saved), 'user_'.$user);
+    update_field('saved', json_encode($saved), 'user_' . $user);
   } else {
     the_field('saves', $save_id);
   }

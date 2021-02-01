@@ -13,19 +13,24 @@
         <?php $conditions = get_the_terms($id, 'technical_condition'); ?>
         <?php $user = get_current_user_id(); ?>
         <?php $saved = json_decode(get_field('saved', 'user_' . $user)); ?>
+        <?php $saved = json_decode(json_encode($saved), true); ?>
         <!-- article -->
         <article id="post-<?php the_ID(); ?>" <?php post_class('pt-12'); ?>>
           <div class="bg-white rounded p-4 pb-24 max-w-6xl mx-auto case-information">
-            <div class="flex items-center justify-end w-full border-b border-border-grey py-2">
-              <div id="saves" class="flex relative" data-id="<?php the_ID(); ?>">
+            <div class="flex items-center justify-end w-full py-2">
+              <div class="saves flex relative" data-id="<?php the_ID(); ?>">
                 <p class="flex">SAVES: <?php echo get_field('saves'); ?></p>
                 <?php if (in_array($id, $saved)) : ?>
-                  <img class="drop-save ml-2"  src="<?php echo get_template_directory_uri() . '/build/images/HeartActive.svg '; ?>" />
+                  <img class="drop-save ml-2" src="<?php echo get_template_directory_uri() . '/build/images/HeartActive.svg '; ?>" />
                   <img class="absolute ml-2 save" style="opacity:0;pointer-events:none;" src="<?php echo get_template_directory_uri() . '/build/images/Heart.svg '; ?>" />
                 <?php else : ?>
                   <img class="drop-save ml-2" style="opacity:0;pointer-events:none;" src="<?php echo get_template_directory_uri() . '/build/images/HeartActive.svg '; ?>" />
                   <img class="absolute ml-2 save" src="<?php echo get_template_directory_uri() . '/build/images/Heart.svg '; ?>" />
                 <?php endif; ?>
+              </div>
+              <div id="share" class="ml-4 flex relative" data-id="<?php the_ID(); ?>">
+                <p class="flex">SHARE</p>
+                <img class="ml-2" src="<?php echo get_template_directory_uri() . '/build/images/Share.svg '; ?>" />
               </div>
             </div>
             <div class="wp-block-columns">

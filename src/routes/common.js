@@ -19,9 +19,10 @@ export default {
   init() {
     // JavaScript to be fired on all pages
     console.log("common");
-    if ($("#saves").length) {
-      $("#saves .save").on("click", function () {
+    if ($(".saves").length) {
+      $(".saves .save").on("click", function () {
         var id = Number($(this).parent().attr("data-id"));
+        console.log(id);
         var $saves = $(this).parent();
         $.ajax({
           url: wp.ajax.settings.url,
@@ -31,6 +32,7 @@ export default {
             id:id
           },
           success: function (res) {
+            console.log(res);
             $saves.find('p').text('SAVES: '+res);
             $saves.find('img').first().css('opacity','1');
             $saves.find('img').first().css('pointerEvents','auto');
@@ -39,7 +41,7 @@ export default {
           },
         });
       });
-      $("#saves .drop-save").on("click", function () {
+      $(".saves .drop-save").on("click", function () {
         var id = Number($(this).parent().attr("data-id"));
         var $saves = $(this).parent();
         $.ajax({
